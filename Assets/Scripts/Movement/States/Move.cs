@@ -18,24 +18,6 @@ public class Move : IState
 
     public void Enter()
     {
-        
-        if (directionVector.y == 1)
-        {
-            directionVector.x = 0;
-        }
-        else if (directionVector.x == 1)
-        {
-            directionVector.y = 0;
-        }
-        else if (directionVector.y == -1)
-        {
-            directionVector.x = 0;
-        }
-        else if (directionVector.x == -1)
-        {
-            directionVector.y = 0;    
-        }
-        
         currentPosition = playerController.transform.position;
         targetPosition = currentPosition + playerController.directionVector * playerController.tilesToMove;
     }

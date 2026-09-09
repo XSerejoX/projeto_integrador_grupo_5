@@ -9,16 +9,48 @@ public class Idle : IState
         this.playerController = playerController;
     }
 
+
+
     public void Enter()
     {
         Debug.Log("Entrou no estado de Idle");
+
     }
 
     public void Update()
     {
+            //lidando com as diagonais. caso o jogador aperte uma diagonal, ele vai se mover na horizontal
         if (playerController.moveAction.WasPressedThisFrame())
         {
-            playerController.stateMachine.ChangeState(playerController.moveState);
+            if (playerController.directionVector.x > 0 && playerController.directionVector.y > 0)
+            {
+                playerController.directionVector = new Vector2(1, 0);
+                playerController.stateMachine.ChangeState(playerController.moveState);
+            
+            }
+
+            else if (playerController.directionVector.x < 0 && playerController.directionVector.y < 0)
+            {
+                playerController.directionVector = new Vector2(-1, 0);
+                playerController.stateMachine.ChangeState(playerController.moveState);
+            }
+
+           else if (playerController.directionVector.x > 0 && playerController.directionVector.y < 0)
+            {
+                playerController.directionVector = new Vector2(1, 0);
+                playerController.stateMachine.ChangeState(playerController.moveState);
+            }
+
+            else if (playerController.directionVector.x < 0 && playerController.directionVector.y > 0)
+            {
+                playerController.directionVector = new Vector2(-1, 0);
+                playerController.stateMachine.ChangeState(playerController.moveState);
+            }
+           
+            else
+            {
+                playerController.stateMachine.ChangeState(playerController.moveState);
+            }  
         }
         
     }

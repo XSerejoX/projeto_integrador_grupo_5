@@ -3,7 +3,7 @@ using UnityEngine;
 public class MoveStateMachine : MonoBehaviour
 {
    public IState currentState;
-
+    
 
    public void ChangeState(IState newState)
     {
@@ -16,10 +16,5 @@ public class MoveStateMachine : MonoBehaviour
     {
         currentState?.Update();
     }
-
-
-
-
-
 
 }
