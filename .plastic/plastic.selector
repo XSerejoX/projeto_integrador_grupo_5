@@ -1,0 +1,3 @@
+repository "projeto_integrador/projeto_integrador_grupo_5@4673733255809@cloud"
+  path "/"
+    smartbranch "/main/production"
