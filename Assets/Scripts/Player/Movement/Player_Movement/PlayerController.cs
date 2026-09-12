@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 [RequireComponent(typeof(MoveStateMachine))]
-
+[RequireComponent(typeof(TurnManager))]
 public class PlayerController : MonoBehaviour
 {
     //definindo variaveis
     public float speed = 5f;
     public float tilesToMove = 1f;
     public Vector2 directionVector;
-     
+    public bool playerArrived; 
     //referencias:
         
         //states
@@ -22,20 +22,23 @@ public class PlayerController : MonoBehaviour
         
         //state machine
     public MoveStateMachine stateMachine;
-    
-    
+        
+        //turn manager
+    public TurnManager turnManager;
     void Awake()
     {
         stateMachine = GetComponent<MoveStateMachine>();   
         
         inputActions = new InputActions();
         
+        turnManager = GetComponent<TurnManager>();
+        
         //instanciando estados de movimento
         moveState = new Move(this);
         idleState = new Idle(this);
 
         moveAction = inputActions.Player.Move; //especificando a ação de movimento do input actions
-        
+  
     }
 
     // ligando e desligando o input

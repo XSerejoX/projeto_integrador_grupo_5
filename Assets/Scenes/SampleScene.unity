@@ -119,6 +119,124 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &23546151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126946363682523894, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2100077703938866743, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423391051568784604, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      propertyPath: m_Name
+      value: perseguidor concept_0 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4423391051568784604, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23546154}
+    - targetCorrespondingSourceObject: {fileID: 4423391051568784604, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23546153}
+    - targetCorrespondingSourceObject: {fileID: 4423391051568784604, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23546158}
+  m_SourcePrefab: {fileID: 100100000, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+--- !u!1 &23546152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4423391051568784604, guid: 0cbb7968c0ec7d041b62e6c7932f98ae, type: 3}
+  m_PrefabInstance: {fileID: 23546151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &23546153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23546152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98242e9864a4dd942b9c43268dddf2b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PerseguidorController
+  speed: 3
+  tilesToMove: 1
+  turnManager: {fileID: 330203291}
+  playerController: {fileID: 330203289}
+  stateMachine: {fileID: 330203290}
+--- !u!114 &23546154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23546152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d1e495bbd9ead4d85e191ced392093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurnManager
+  isPlayerTurn: 1
+  isPlayerPathFree: 1
+--- !u!114 &23546158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23546152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84dc536c60fe9be48bf18fca9249ca23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoveStateMachine
 --- !u!1 &50069339
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +699,7 @@ GameObject:
   - component: {fileID: 330203286}
   - component: {fileID: 330203290}
   - component: {fileID: 330203289}
+  - component: {fileID: 330203291}
   m_Layer: 0
   m_Name: Gobrina_Basic_Sprite_0
   m_TagString: Untagged
@@ -656,7 +775,7 @@ Transform:
   m_GameObject: {fileID: 330203285}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: -1.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -677,6 +796,7 @@ MonoBehaviour:
   speed: 3
   tilesToMove: 1
   directionVector: {x: 0, y: 0}
+  playerArrived: 0
   moveAction:
     m_Name: Move
     m_Type: 0
@@ -687,6 +807,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   stateMachine: {fileID: 330203290}
+  turnManager: {fileID: 330203291}
 --- !u!114 &330203290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -699,6 +820,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84dc536c60fe9be48bf18fca9249ca23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveStateMachine
+--- !u!114 &330203291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330203285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d1e495bbd9ead4d85e191ced392093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurnManager
+  isPlayerTurn: 1
+  isPlayerPathFree: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,3 +1063,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 330203287}
   - {fileID: 50069341}
+  - {fileID: 23546151}

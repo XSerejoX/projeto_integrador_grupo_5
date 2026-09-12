@@ -10,7 +10,10 @@ public class Move : IState
     public float distanceToTarget;
     
     public PlayerController playerController;
-   
+    public bool playerTurn;
+    
+    public bool playerIsMoving;
+    
     public Move(PlayerController playerController)
     {
         this.playerController = playerController;
@@ -25,27 +28,32 @@ public class Move : IState
 
     public void Update()
     {
+        
         currentPosition = playerController.transform.position;
         
         playerController.transform.position = Vector2.MoveTowards(
-            currentPosition,
-            targetPosition,
-            playerController.speed * Time.deltaTime);
+           currentPosition,
+           targetPosition,
+           playerController.speed * Time.deltaTime);
 
         distanceToTarget = Vector2.Distance(playerController.transform.position, targetPosition);
-        
        
         
         if (distanceToTarget <= 0.01f)
         {
             playerController.transform.position = targetPosition;
             playerController.stateMachine.ChangeState(playerController.idleState);
-        }
-    }
 
+            playerController.turnManager.isPlayerTurn = false;
+        
+        }
+        
+
+    
+    }
     public void Exit()
     {
-        Debug.Log("Saiu do estado de movimento");
+        
     }
 
 
