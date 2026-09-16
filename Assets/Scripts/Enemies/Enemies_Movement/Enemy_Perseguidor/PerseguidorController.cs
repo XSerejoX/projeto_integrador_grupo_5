@@ -10,11 +10,11 @@ public class PerseguidorController : MonoBehaviour
     public PlayerController playerController;
     public MoveStateMachine stateMachine;
     
-    public IState perseguindoState;
-    public IState perseguidorIdleState;
+    public IState perseguindoState; //Istate
+    public IState perseguidorIdleState; //Istate
 
-    public Perseguindo perseguindo;
-    public IdlePerseguidor idlePerseguidor;
+    public Perseguindo perseguindo; // tipo da classe
+    public IdlePerseguidor idlePerseguidor; //tipo da classe
 
     void Awake()
     {
@@ -25,9 +25,8 @@ public class PerseguidorController : MonoBehaviour
         perseguindo = new Perseguindo(this);// Instanciando o estado de perseguição
         idlePerseguidor = new IdlePerseguidor(this);// Instanciando o estado idle
 
-        perseguindoState = perseguindo;
-        perseguidorIdleState = idlePerseguidor;
-
+        perseguindoState = perseguindo; // tipo Istate
+        perseguidorIdleState = idlePerseguidor; // tipo Istate
     
     }
 
@@ -35,6 +34,11 @@ public class PerseguidorController : MonoBehaviour
     {
         // Iniciando o estado inicial do inimigo
         stateMachine.ChangeState(perseguidorIdleState);
+    }
+
+    void Update()
+    {
+        stateMachine.Update();
     }
 
 }

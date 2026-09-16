@@ -3,7 +3,6 @@ using UnityEngine;
 public class Idle : IState
 {
     public PlayerController playerController;
-    public bool playerTurn; 
     public Idle(PlayerController playerController)
     {
         this.playerController = playerController;
@@ -13,8 +12,6 @@ public class Idle : IState
 
     public void Enter()
     {
-        playerController.turnManager.isPlayerTurn = true; //recebe o estado de turno do player
-        
     }
 
     public void Update()
