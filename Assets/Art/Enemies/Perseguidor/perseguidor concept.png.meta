@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 634dd8b3eadf07a4a9bce3a61e3d844f
+guid: 01d88e7e52eb97d41b76fca1c9dc00e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1113421749069426339
-    second: Gobrina_Basic_Sprite_0
+      213: -4993336129717258074
+    second: perseguidor concept_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gobrina_Basic_Sprite_0
+      name: perseguidor concept_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ae2a7e7e2ba37f00800000000000000
-      internalID: 1113421749069426339
+      spriteID: 6a83410fe3b14bab0800000000000000
+      internalID: -4993336129717258074
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 760954a51d648f84f99dbe3538679954
+    spriteID: c5e6ecfec9da17d449baf8280c07227e
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gobrina_Basic_Sprite_0: 1113421749069426339
+      perseguidor concept_0: -4993336129717258074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

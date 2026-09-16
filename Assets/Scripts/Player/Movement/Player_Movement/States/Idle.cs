@@ -3,7 +3,6 @@ using UnityEngine;
 public class Idle : IState
 {
     public PlayerController playerController;
-
     public Idle(PlayerController playerController)
     {
         this.playerController = playerController;
@@ -13,14 +12,12 @@ public class Idle : IState
 
     public void Enter()
     {
-        Debug.Log("Entrou no estado de Idle");
-
     }
 
     public void Update()
     {
             //lidando com as diagonais. caso o jogador aperte uma diagonal, ele vai se mover na horizontal
-        if (playerController.moveAction.WasPressedThisFrame())
+        if (playerController.moveAction.WasPressedThisFrame() && playerController.turnManager.isPlayerTurn)
         {
             if (playerController.directionVector.x > 0 && playerController.directionVector.y > 0)
             {
@@ -52,12 +49,12 @@ public class Idle : IState
                 playerController.stateMachine.ChangeState(playerController.moveState);
             }  
         }
-        
+        else {return ;}
     }
 
     public void Exit()
     {
-        Debug.Log("Saiu do estado de Idle");
+        
     }
 
 
