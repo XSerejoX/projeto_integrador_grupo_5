@@ -11,7 +11,7 @@ public class IdlePerseguidor : IState
 
 	public void Enter()
 	{
-		Debug.Log("Perseguidor entrou no estado idle.");
+		
 	}
 
 	public void Update()
@@ -22,6 +22,6 @@ public class IdlePerseguidor : IState
 
 	public void Exit()
 	{
-		Debug.Log("Perseguidor saiu do estado idle.");
+		
 	}
 }
