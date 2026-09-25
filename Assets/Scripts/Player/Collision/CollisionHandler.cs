@@ -4,8 +4,8 @@ using UnityEngine;
 public class CollisionHandler : MonoBehaviour
 {
         //configura o tamanho do mapa
-    public Vector2 minMaxMapScaleX = new Vector2(1f, 8f); // largura minima: 1, depois largura máxima: 8
-    public Vector2 minMaxMapScaleY = new Vector2(1f, 8f); // altura minima: 1, depois altura máxima: 8
+    public Vector2 minMaxMapScaleX = new Vector2(1f, 10f); // largura minima: 1, depois largura máxima: 8
+    public Vector2 minMaxMapScaleY = new Vector2(1f, 10f); // altura minima: 1, depois altura máxima: 8
 
         //ray de detecção de obstaculos (parede, movement limiter etc)
     public string obstacleTag = "Obstacle";
