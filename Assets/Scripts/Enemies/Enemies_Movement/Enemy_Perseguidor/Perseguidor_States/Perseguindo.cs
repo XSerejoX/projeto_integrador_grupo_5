@@ -86,7 +86,7 @@ public class Perseguindo : IState
     public void Exit()
     {
         // Código a ser executado quando o inimigo sai do estado de perseguição
-        Debug.Log("Inimigo saiu do estado de perseguição.");
+       
     }
 
         //Código para escolher aleatoriamente o eixo a ser movimentado pelo inimigo

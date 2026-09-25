@@ -75,7 +75,7 @@ public class Move : IState
     private void FinishMovement()
     {
         playerController.transform.position = targetPosition; // snap da posição
-        playerController.turnManager.isPlayerTurn = false; // desliga o turno do jogador
+        playerController.turnManager.EndPlayerTurn(); // desliga o turno do jogador 
         playerController.stateMachine.ChangeState(playerController.idleState); // muda pra idle
     }
 
