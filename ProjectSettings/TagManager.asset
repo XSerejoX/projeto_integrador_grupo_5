@@ -4,12 +4,14 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - map_boundary
+  - Obstacle
+  - Enemy
+  - WallChecker
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ObstacleLayer
   - Water
   - UI
   - 
@@ -44,3 +46,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  m_MigratedRenderPipelines: []
