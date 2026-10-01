@@ -1,0 +1,2817 @@
+fileFormatVersion: 2
+guid: 5dd6c3dcf1df07e408376a65c7367f27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7370314450795427391
+    second: Gobrina_Full_SpriteSheet_0
+  - first:
+      213: 2813465672813225262
+    second: Gobrina_Full_SpriteSheet_1
+  - first:
+      213: 5616869047231648204
+    second: Gobrina_Full_SpriteSheet_2
+  - first:
+      213: -4129316091166341855
+    second: Gobrina_Full_SpriteSheet_3
+  - first:
+      213: 6877198205150581
+    second: Gobrina_Full_SpriteSheet_4
+  - first:
+      213: -7351453588778357130
+    second: Gobrina_Full_SpriteSheet_5
+  - first:
+      213: 5625586696126885167
+    second: Gobrina_Full_SpriteSheet_6
+  - first:
+      213: 1599674081634047660
+    second: Gobrina_Full_SpriteSheet_7
+  - first:
+      213: -2101512351361550271
+    second: Gobrina_Full_SpriteSheet_8
+  - first:
+      213: 2851514506147506599
+    second: Gobrina_Full_SpriteSheet_9
+  - first:
+      213: 5465322583450431765
+    second: Gobrina_Full_SpriteSheet_10
+  - first:
+      213: 3633540213474412714
+    second: Gobrina_Full_SpriteSheet_11
+  - first:
+      213: -1430413179477903941
+    second: Gobrina_Full_SpriteSheet_12
+  - first:
+      213: 8180793441496005642
+    second: Gobrina_Full_SpriteSheet_13
+  - first:
+      213: -4834783408930895725
+    second: Gobrina_Full_SpriteSheet_14
+  - first:
+      213: -8937847972367363888
+    second: Gobrina_Full_SpriteSheet_15
+  - first:
+      213: -7837426138392727780
+    second: Gobrina_Full_SpriteSheet_16
+  - first:
+      213: 8284725994050587589
+    second: Gobrina_Full_SpriteSheet_17
+  - first:
+      213: 1431629402731665216
+    second: Gobrina_Full_SpriteSheet_18
+  - first:
+      213: 4645912625201593278
+    second: Gobrina_Full_SpriteSheet_19
+  - first:
+      213: -8437300650057031292
+    second: Gobrina_Full_SpriteSheet_20
+  - first:
+      213: -803343627484545578
+    second: Gobrina_Full_SpriteSheet_21
+  - first:
+      213: -893370847946372782
+    second: Gobrina_Full_SpriteSheet_22
+  - first:
+      213: -6743896153279129115
+    second: Gobrina_Full_SpriteSheet_23
+  - first:
+      213: -2607415679590652420
+    second: Gobrina_Full_SpriteSheet_24
+  - first:
+      213: -3621274184648217568
+    second: Gobrina_Full_SpriteSheet_25
+  - first:
+      213: 1694169115987951667
+    second: Gobrina_Full_SpriteSheet_26
+  - first:
+      213: 865411201846526319
+    second: Gobrina_Full_SpriteSheet_27
+  - first:
+      213: -8114839207760389213
+    second: Gobrina_Full_SpriteSheet_28
+  - first:
+      213: 7383620609363704926
+    second: Gobrina_Full_SpriteSheet_29
+  - first:
+      213: 654186360269636351
+    second: Gobrina_Full_SpriteSheet_30
+  - first:
+      213: -3490940876324366950
+    second: Gobrina_Full_SpriteSheet_31
+  - first:
+      213: 4775698311075378743
+    second: Gobrina_Full_SpriteSheet_32
+  - first:
+      213: -3738096761814858179
+    second: Gobrina_Full_SpriteSheet_33
+  - first:
+      213: 1571301019121910149
+    second: Gobrina_Full_SpriteSheet_34
+  - first:
+      213: -1644777497161568314
+    second: Gobrina_Full_SpriteSheet_35
+  - first:
+      213: 7312122000519921808
+    second: Gobrina_Full_SpriteSheet_36
+  - first:
+      213: -1476600934675169276
+    second: Gobrina_Full_SpriteSheet_37
+  - first:
+      213: -826992938762148806
+    second: Gobrina_Full_SpriteSheet_38
+  - first:
+      213: -8715434661913953833
+    second: Gobrina_Full_SpriteSheet_39
+  - first:
+      213: -2319669657551099785
+    second: Gobrina_Full_SpriteSheet_40
+  - first:
+      213: 2878870433855254300
+    second: Gobrina_Full_SpriteSheet_41
+  - first:
+      213: 7601326352594898778
+    second: Gobrina_Full_SpriteSheet_42
+  - first:
+      213: -7441506789013493642
+    second: Gobrina_Full_SpriteSheet_43
+  - first:
+      213: 4220752634630653359
+    second: Gobrina_Full_SpriteSheet_44
+  - first:
+      213: -5552158283768731435
+    second: Gobrina_Full_SpriteSheet_45
+  - first:
+      213: 2170618132732512950
+    second: Gobrina_Full_SpriteSheet_46
+  - first:
+      213: -4178067351508853528
+    second: Gobrina_Full_SpriteSheet_47
+  - first:
+      213: 6667835653179377994
+    second: Gobrina_Full_SpriteSheet_48
+  - first:
+      213: 2638177786662885510
+    second: Gobrina_Full_SpriteSheet_49
+  - first:
+      213: 1948370729525496174
+    second: Gobrina_Full_SpriteSheet_50
+  - first:
+      213: -627542575090454464
+    second: Gobrina_Full_SpriteSheet_51
+  - first:
+      213: -8489667877989092979
+    second: Gobrina_Full_SpriteSheet_52
+  - first:
+      213: -5747214047230504171
+    second: Gobrina_Full_SpriteSheet_53
+  - first:
+      213: 6196948295144249782
+    second: Gobrina_Full_SpriteSheet_54
+  - first:
+      213: 5310547394068478271
+    second: Gobrina_Full_SpriteSheet_55
+  - first:
+      213: -1962177090647716708
+    second: Gobrina_Full_SpriteSheet_56
+  - first:
+      213: 3245310812253249657
+    second: Gobrina_Full_SpriteSheet_57
+  - first:
+      213: 7538240486092415232
+    second: Gobrina_Full_SpriteSheet_58
+  - first:
+      213: -3520556279321067721
+    second: Gobrina_Full_SpriteSheet_59
+  - first:
+      213: -2060368897173649971
+    second: Gobrina_Full_SpriteSheet_60
+  - first:
+      213: 4994745513973116976
+    second: Gobrina_Full_SpriteSheet_61
+  - first:
+      213: 1710983066884549603
+    second: Gobrina_Full_SpriteSheet_62
+  - first:
+      213: -1448688522506220530
+    second: Gobrina_Full_SpriteSheet_63
+  - first:
+      213: -6184905197561422066
+    second: Gobrina_Full_SpriteSheet_64
+  - first:
+      213: 1825165954813316876
+    second: Gobrina_Full_SpriteSheet_65
+  - first:
+      213: -1352611613473316506
+    second: Gobrina_Full_SpriteSheet_66
+  - first:
+      213: -4974303602860177132
+    second: Gobrina_Full_SpriteSheet_67
+  - first:
+      213: 2895045509971960637
+    second: Gobrina_Full_SpriteSheet_68
+  - first:
+      213: 5388599447398614356
+    second: Gobrina_Full_SpriteSheet_69
+  - first:
+      213: -2659982866661423092
+    second: Gobrina_Full_SpriteSheet_70
+  - first:
+      213: 6023980591857473366
+    second: Gobrina_Full_SpriteSheet_71
+  - first:
+      213: 145624462957082995
+    second: Gobrina_Full_SpriteSheet_72
+  - first:
+      213: 1672775908386720060
+    second: Gobrina_Full_SpriteSheet_73
+  - first:
+      213: -6182458328595782588
+    second: Gobrina_Full_SpriteSheet_74
+  - first:
+      213: 7781954956235571188
+    second: Gobrina_Full_SpriteSheet_75
+  - first:
+      213: -599682209135777225
+    second: Gobrina_Full_SpriteSheet_76
+  - first:
+      213: 8601913751541761513
+    second: Gobrina_Full_SpriteSheet_77
+  - first:
+      213: -2987390479302036253
+    second: Gobrina_Full_SpriteSheet_78
+  - first:
+      213: 6213808169529861687
+    second: Gobrina_Full_SpriteSheet_79
+  - first:
+      213: 1086720006958700384
+    second: Gobrina_Full_SpriteSheet_80
+  - first:
+      213: 6187079313636466438
+    second: Gobrina_Full_SpriteSheet_81
+  - first:
+      213: -6217357197723647726
+    second: Gobrina_Full_SpriteSheet_82
+  - first:
+      213: -2501920159094782769
+    second: Gobrina_Full_SpriteSheet_83
+  - first:
+      213: 107618082973002327
+    second: Gobrina_Full_SpriteSheet_84
+  - first:
+      213: 2764004743463246534
+    second: Gobrina_Full_SpriteSheet_85
+  - first:
+      213: -2120626868054966375
+    second: Gobrina_Full_SpriteSheet_86
+  - first:
+      213: 1819463742625575950
+    second: Gobrina_Full_SpriteSheet_87
+  - first:
+      213: 4837021644452221822
+    second: Gobrina_Full_SpriteSheet_88
+  - first:
+      213: 6055842898273513600
+    second: Gobrina_Full_SpriteSheet_89
+  - first:
+      213: -2854168850090456170
+    second: Gobrina_Full_SpriteSheet_90
+  - first:
+      213: -8613622088289698937
+    second: Gobrina_Full_SpriteSheet_91
+  - first:
+      213: 1438957334348071941
+    second: Gobrina_Full_SpriteSheet_92
+  - first:
+      213: -4267899808704010368
+    second: Gobrina_Full_SpriteSheet_93
+  - first:
+      213: 1678597134035475347
+    second: Gobrina_Full_SpriteSheet_94
+  - first:
+      213: 3923794782769777228
+    second: Gobrina_Full_SpriteSheet_95
+  - first:
+      213: -3497921748241227826
+    second: Gobrina_Full_SpriteSheet_96
+  - first:
+      213: -6498028784165541674
+    second: Gobrina_Full_SpriteSheet_97
+  - first:
+      213: -5704043678378458293
+    second: Gobrina_Full_SpriteSheet_98
+  - first:
+      213: -3003962463163740234
+    second: Gobrina_Full_SpriteSheet_99
+  - first:
+      213: 989779441565899882
+    second: Gobrina_Full_SpriteSheet_100
+  - first:
+      213: -3900404974867058604
+    second: Gobrina_Full_SpriteSheet_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 407
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9096d7e0267b990800000000000000
+      internalID: -7370314450795427391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 407
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25a9cf7f107b0720800000000000000
+      internalID: 2813465672813225262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 407
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1112693a023fd40800000000000000
+      internalID: 5616869047231648204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 407
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125c9b4a4e8b1b6c0800000000000000
+      internalID: -4129316091166341855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 407
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575611c76ce681000800000000000000
+      internalID: 6877198205150581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 407
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e681229e36af990800000000000000
+      internalID: -7351453588778357130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 375
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d6ec36b49121e40800000000000000
+      internalID: 5625586696126885167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 375
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca652301a1f233610800000000000000
+      internalID: 1599674081634047660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 375
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148bff596ade5d2e0800000000000000
+      internalID: -2101512351361550271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 375
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9abcad55d929720800000000000000
+      internalID: 2851514506147506599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 375
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511bb71eee9b8db40800000000000000
+      internalID: 5465322583450431765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 375
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa84d35a29dec6230800000000000000
+      internalID: 3633540213474412714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5be2bbac6262ce0800000000000000
+      internalID: -1430413179477903941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cf6359a44088170800000000000000
+      internalID: 8180793441496005642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398c8b8fa1667ecb0800000000000000
+      internalID: -4834783408930895725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d01996bf9266f380800000000000000
+      internalID: -8937847972367363888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f6dbb937edb3390800000000000000
+      internalID: -7837426138392727780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb84d0b56249f270800000000000000
+      internalID: 8284725994050587589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04753df4b5b2ed310800000000000000
+      internalID: 1431629402731665216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbb4a2eae8997040800000000000000
+      internalID: 4645912625201593278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 327
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481ad22f2cfa8ea80800000000000000
+      internalID: -8437300650057031292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddb5332a33f9d4f0800000000000000
+      internalID: -803343627484545578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259877372fb1a93f0800000000000000
+      internalID: -893370847946372782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99ca5ed2ed862a0800000000000000
+      internalID: -6743896153279129115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5273c014990dbd0800000000000000
+      internalID: -2607415679590652420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c20cdb056aebdc0800000000000000
+      internalID: -3621274184648217568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33046ebb5d5e28710800000000000000
+      internalID: 1694169115987951667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61c4b627ee820c00800000000000000
+      internalID: 865411201846526319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab970c1cbc426f80800000000000000
+      internalID: -8114839207760389213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c7069f2d3e77660800000000000000
+      internalID: 7383620609363704926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff207c45703241900800000000000000
+      internalID: 654186360269636351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a959bcec4cfad8fc0800000000000000
+      internalID: -3490940876324366950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736b41aaf40b64240800000000000000
+      internalID: 4775698311075378743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36ccf7eccc9f1cc0800000000000000
+      internalID: -3738096761814858179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58188f7a3f16ec510800000000000000
+      internalID: 1571301019121910149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfe02ba4939c29e0800000000000000
+      internalID: -1644777497161568314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0900f4bd730e97560800000000000000
+      internalID: 7312122000519921808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4004da5f54f028be0800000000000000
+      internalID: -1476600934675169276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a346355cd4ee584f0800000000000000
+      internalID: -826992938762148806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9fd71f95e8c0780800000000000000
+      internalID: -8715434661913953833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7782a619cb0eecfd0800000000000000
+      internalID: -2319669657551099785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f215c186dc3f720800000000000000
+      internalID: 2878870433855254300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f0c3c4b065d7960800000000000000
+      internalID: 7601326352594898778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678613f80057ab890800000000000000
+      internalID: -7441506789013493642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa544ff9820239a30800000000000000
+      internalID: 4220752634630653359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8e83f1575c2f2b0800000000000000
+      internalID: -5552158283768731435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba0b88f0b59f1e10800000000000000
+      internalID: 2170618132732512950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec58a151e58406c0800000000000000
+      internalID: -4178067351508853528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a490178e239e88c50800000000000000
+      internalID: 6667835653179377994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6881e5428b0bc9420800000000000000
+      internalID: 2638177786662885510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69c2280bd00a0b10800000000000000
+      internalID: 1948370729525496174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040bc425a558a47f0800000000000000
+      internalID: -627542575090454464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d817a6f8b04ae2a80800000000000000
+      internalID: -8489667877989092979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513d0ba264bcd30b0800000000000000
+      internalID: -5747214047230504171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9198f34abfff550800000000000000
+      internalID: 6196948295144249782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39f35ae7bad2b940800000000000000
+      internalID: 5310547394068478271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c88850552f4c4e0800000000000000
+      internalID: -1962177090647716708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970e6164df8a90d20800000000000000
+      internalID: 3245310812253249657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001a10568c53d9860800000000000000
+      internalID: 7538240486092415232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ffb4777b8742fc0800000000000000
+      internalID: -3520556279321067721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc583b187691863e0800000000000000
+      internalID: -2060368897173649971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030f7d7e496e05540800000000000000
+      internalID: 4994745513973116976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebac5eb802aeb710800000000000000
+      internalID: 1710983066884549603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cc4d9d67935ebe0800000000000000
+      internalID: -1448688522506220530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f52e9ed7dca2aa0800000000000000
+      internalID: -6184905197561422066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fc8c804ca445910800000000000000
+      internalID: 1825165954813316876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661eadb67ee8a3de0800000000000000
+      internalID: -1352611613473316506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419c29a6a39b7fab0800000000000000
+      internalID: -4974303602860177132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33e77e7d844d2820800000000000000
+      internalID: 2895045509971960637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4558f0bb5a628ca40800000000000000
+      internalID: 5388599447398614356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08450c0da7d51bd0800000000000000
+      internalID: -2659982866661423092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657138f8e6a799350800000000000000
+      internalID: 6023980591857473366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379f9217dac550200800000000000000
+      internalID: 145624462957082995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39c83073d4e63710800000000000000
+      internalID: 1672775908386720060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444a46df7ee733aa0800000000000000
+      internalID: -6182458328595782588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fff2885dce0ffb60800000000000000
+      internalID: 7781954956235571188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a275245308da7f0800000000000000
+      internalID: -599682209135777225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5c13d6bf2206770800000000000000
+      internalID: 8601913751541761513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e471dbdf28aa86d0800000000000000
+      internalID: -2987390479302036253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7366f37ab91eb3650800000000000000
+      internalID: 6213808169529861687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0675511b61ec41f00800000000000000
+      internalID: 1086720006958700384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f187eeadbecd550800000000000000
+      internalID: 6187079313636466438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211c6f3d19287b9a0800000000000000
+      internalID: -6217357197723647726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc444ccfed4674dd0800000000000000
+      internalID: -2501920159094782769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aa30783165e7100800000000000000
+      internalID: 107618082973002327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca1f9b7ba7bb5620800000000000000
+      internalID: 2764004743463246534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f3f6c59150292e0800000000000000
+      internalID: -2120626868054966375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0476ec42a8004910800000000000000
+      internalID: 1819463742625575950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e735378de8d802340800000000000000
+      internalID: 4837021644452221822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0803a2fd70daa0450800000000000000
+      internalID: 6055842898273513600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b8f598d84f368d0800000000000000
+      internalID: -2854168850090456170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bb80ef854467880800000000000000
+      internalID: -8613622088289698937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50482c8521438f310800000000000000
+      internalID: 1438957334348071941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0876d3d7cbf55c4c0800000000000000
+      internalID: -4267899808704010368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b5c2723339b4710800000000000000
+      internalID: 1678597134035475347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a0686d09e147630800000000000000
+      internalID: 3923794782769777228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfd7f7e3b2e47fc0800000000000000
+      internalID: -3497921748241227826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8ac83bf3d52d5a0800000000000000
+      internalID: -6498028784165541674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4380feee7a27d0b0800000000000000
+      internalID: -5704043678378458293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf84803e08cf46d0800000000000000
+      internalID: -3003962463163740234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c158478276cbd00800000000000000
+      internalID: 989779441565899882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450f1e0375afed9c0800000000000000
+      internalID: -3900404974867058604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc10bbe2a8b23a34182d0ae96783a879
+      internalID: -515410632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gobrina_Full_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15df1d9f0585df488a733a42b7960ea
+      internalID: 1877907407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d7c2737f55d75946b6201055bf8a5d6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Gobrina_Full_SpriteSheet_0: -7370314450795427391
+      Gobrina_Full_SpriteSheet_1: 2813465672813225262
+      Gobrina_Full_SpriteSheet_10: 5465322583450431765
+      Gobrina_Full_SpriteSheet_100: 989779441565899882
+      Gobrina_Full_SpriteSheet_101: -3900404974867058604
+      Gobrina_Full_SpriteSheet_102: -515410632
+      Gobrina_Full_SpriteSheet_103: 1877907407
+      Gobrina_Full_SpriteSheet_11: 3633540213474412714
+      Gobrina_Full_SpriteSheet_12: -1430413179477903941
+      Gobrina_Full_SpriteSheet_13: 8180793441496005642
+      Gobrina_Full_SpriteSheet_14: -4834783408930895725
+      Gobrina_Full_SpriteSheet_15: -8937847972367363888
+      Gobrina_Full_SpriteSheet_16: -7837426138392727780
+      Gobrina_Full_SpriteSheet_17: 8284725994050587589
+      Gobrina_Full_SpriteSheet_18: 1431629402731665216
+      Gobrina_Full_SpriteSheet_19: 4645912625201593278
+      Gobrina_Full_SpriteSheet_2: 5616869047231648204
+      Gobrina_Full_SpriteSheet_20: -8437300650057031292
+      Gobrina_Full_SpriteSheet_21: -803343627484545578
+      Gobrina_Full_SpriteSheet_22: -893370847946372782
+      Gobrina_Full_SpriteSheet_23: -6743896153279129115
+      Gobrina_Full_SpriteSheet_24: -2607415679590652420
+      Gobrina_Full_SpriteSheet_25: -3621274184648217568
+      Gobrina_Full_SpriteSheet_26: 1694169115987951667
+      Gobrina_Full_SpriteSheet_27: 865411201846526319
+      Gobrina_Full_SpriteSheet_28: -8114839207760389213
+      Gobrina_Full_SpriteSheet_29: 7383620609363704926
+      Gobrina_Full_SpriteSheet_3: -4129316091166341855
+      Gobrina_Full_SpriteSheet_30: 654186360269636351
+      Gobrina_Full_SpriteSheet_31: -3490940876324366950
+      Gobrina_Full_SpriteSheet_32: 4775698311075378743
+      Gobrina_Full_SpriteSheet_33: -3738096761814858179
+      Gobrina_Full_SpriteSheet_34: 1571301019121910149
+      Gobrina_Full_SpriteSheet_35: -1644777497161568314
+      Gobrina_Full_SpriteSheet_36: 7312122000519921808
+      Gobrina_Full_SpriteSheet_37: -1476600934675169276
+      Gobrina_Full_SpriteSheet_38: -826992938762148806
+      Gobrina_Full_SpriteSheet_39: -8715434661913953833
+      Gobrina_Full_SpriteSheet_4: 6877198205150581
+      Gobrina_Full_SpriteSheet_40: -2319669657551099785
+      Gobrina_Full_SpriteSheet_41: 2878870433855254300
+      Gobrina_Full_SpriteSheet_42: 7601326352594898778
+      Gobrina_Full_SpriteSheet_43: -7441506789013493642
+      Gobrina_Full_SpriteSheet_44: 4220752634630653359
+      Gobrina_Full_SpriteSheet_45: -5552158283768731435
+      Gobrina_Full_SpriteSheet_46: 2170618132732512950
+      Gobrina_Full_SpriteSheet_47: -4178067351508853528
+      Gobrina_Full_SpriteSheet_48: 6667835653179377994
+      Gobrina_Full_SpriteSheet_49: 2638177786662885510
+      Gobrina_Full_SpriteSheet_5: -7351453588778357130
+      Gobrina_Full_SpriteSheet_50: 1948370729525496174
+      Gobrina_Full_SpriteSheet_51: -627542575090454464
+      Gobrina_Full_SpriteSheet_52: -8489667877989092979
+      Gobrina_Full_SpriteSheet_53: -5747214047230504171
+      Gobrina_Full_SpriteSheet_54: 6196948295144249782
+      Gobrina_Full_SpriteSheet_55: 5310547394068478271
+      Gobrina_Full_SpriteSheet_56: -1962177090647716708
+      Gobrina_Full_SpriteSheet_57: 3245310812253249657
+      Gobrina_Full_SpriteSheet_58: 7538240486092415232
+      Gobrina_Full_SpriteSheet_59: -3520556279321067721
+      Gobrina_Full_SpriteSheet_6: 5625586696126885167
+      Gobrina_Full_SpriteSheet_60: -2060368897173649971
+      Gobrina_Full_SpriteSheet_61: 4994745513973116976
+      Gobrina_Full_SpriteSheet_62: 1710983066884549603
+      Gobrina_Full_SpriteSheet_63: -1448688522506220530
+      Gobrina_Full_SpriteSheet_64: -6184905197561422066
+      Gobrina_Full_SpriteSheet_65: 1825165954813316876
+      Gobrina_Full_SpriteSheet_66: -1352611613473316506
+      Gobrina_Full_SpriteSheet_67: -4974303602860177132
+      Gobrina_Full_SpriteSheet_68: 2895045509971960637
+      Gobrina_Full_SpriteSheet_69: 5388599447398614356
+      Gobrina_Full_SpriteSheet_7: 1599674081634047660
+      Gobrina_Full_SpriteSheet_70: -2659982866661423092
+      Gobrina_Full_SpriteSheet_71: 6023980591857473366
+      Gobrina_Full_SpriteSheet_72: 145624462957082995
+      Gobrina_Full_SpriteSheet_73: 1672775908386720060
+      Gobrina_Full_SpriteSheet_74: -6182458328595782588
+      Gobrina_Full_SpriteSheet_75: 7781954956235571188
+      Gobrina_Full_SpriteSheet_76: -599682209135777225
+      Gobrina_Full_SpriteSheet_77: 8601913751541761513
+      Gobrina_Full_SpriteSheet_78: -2987390479302036253
+      Gobrina_Full_SpriteSheet_79: 6213808169529861687
+      Gobrina_Full_SpriteSheet_8: -2101512351361550271
+      Gobrina_Full_SpriteSheet_80: 1086720006958700384
+      Gobrina_Full_SpriteSheet_81: 6187079313636466438
+      Gobrina_Full_SpriteSheet_82: -6217357197723647726
+      Gobrina_Full_SpriteSheet_83: -2501920159094782769
+      Gobrina_Full_SpriteSheet_84: 107618082973002327
+      Gobrina_Full_SpriteSheet_85: 2764004743463246534
+      Gobrina_Full_SpriteSheet_86: -2120626868054966375
+      Gobrina_Full_SpriteSheet_87: 1819463742625575950
+      Gobrina_Full_SpriteSheet_88: 4837021644452221822
+      Gobrina_Full_SpriteSheet_89: 6055842898273513600
+      Gobrina_Full_SpriteSheet_9: 2851514506147506599
+      Gobrina_Full_SpriteSheet_90: -2854168850090456170
+      Gobrina_Full_SpriteSheet_91: -8613622088289698937
+      Gobrina_Full_SpriteSheet_92: 1438957334348071941
+      Gobrina_Full_SpriteSheet_93: -4267899808704010368
+      Gobrina_Full_SpriteSheet_94: 1678597134035475347
+      Gobrina_Full_SpriteSheet_95: 3923794782769777228
+      Gobrina_Full_SpriteSheet_96: -3497921748241227826
+      Gobrina_Full_SpriteSheet_97: -6498028784165541674
+      Gobrina_Full_SpriteSheet_98: -5704043678378458293
+      Gobrina_Full_SpriteSheet_99: -3003962463163740234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

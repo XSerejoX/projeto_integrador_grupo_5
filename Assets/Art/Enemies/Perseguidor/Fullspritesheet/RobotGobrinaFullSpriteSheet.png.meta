@@ -1,0 +1,1941 @@
+fileFormatVersion: 2
+guid: d4e6aa77ea748124db611bdfc61f5dcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2822023368713295107
+    second: RobotGobrinaFullSpriteSheet_0
+  - first:
+      213: 4635672174027863817
+    second: RobotGobrinaFullSpriteSheet_1
+  - first:
+      213: -7710895047872666286
+    second: RobotGobrinaFullSpriteSheet_2
+  - first:
+      213: 2927253177151627727
+    second: RobotGobrinaFullSpriteSheet_3
+  - first:
+      213: 7592198324357234368
+    second: RobotGobrinaFullSpriteSheet_4
+  - first:
+      213: -4842353041655560684
+    second: RobotGobrinaFullSpriteSheet_5
+  - first:
+      213: -8300802640284263446
+    second: RobotGobrinaFullSpriteSheet_6
+  - first:
+      213: 6634283338538719264
+    second: RobotGobrinaFullSpriteSheet_7
+  - first:
+      213: -65515252426708336
+    second: RobotGobrinaFullSpriteSheet_8
+  - first:
+      213: -6933240768167709849
+    second: RobotGobrinaFullSpriteSheet_9
+  - first:
+      213: -5898211245883666034
+    second: RobotGobrinaFullSpriteSheet_10
+  - first:
+      213: 8283180672367713749
+    second: RobotGobrinaFullSpriteSheet_11
+  - first:
+      213: -3579671570103995844
+    second: RobotGobrinaFullSpriteSheet_12
+  - first:
+      213: -7380271407519411815
+    second: RobotGobrinaFullSpriteSheet_13
+  - first:
+      213: -7622683915557193327
+    second: RobotGobrinaFullSpriteSheet_14
+  - first:
+      213: 881217784882006766
+    second: RobotGobrinaFullSpriteSheet_15
+  - first:
+      213: -1973396951697969729
+    second: RobotGobrinaFullSpriteSheet_16
+  - first:
+      213: -316095924633926081
+    second: RobotGobrinaFullSpriteSheet_17
+  - first:
+      213: -687516784282910357
+    second: RobotGobrinaFullSpriteSheet_18
+  - first:
+      213: 1083041462763255077
+    second: RobotGobrinaFullSpriteSheet_19
+  - first:
+      213: -1669040205282026241
+    second: RobotGobrinaFullSpriteSheet_20
+  - first:
+      213: -131000850305766304
+    second: RobotGobrinaFullSpriteSheet_21
+  - first:
+      213: 2433854459478131221
+    second: RobotGobrinaFullSpriteSheet_22
+  - first:
+      213: -4601926928233843225
+    second: RobotGobrinaFullSpriteSheet_23
+  - first:
+      213: 3496761019428840580
+    second: RobotGobrinaFullSpriteSheet_24
+  - first:
+      213: 6233281595517199928
+    second: RobotGobrinaFullSpriteSheet_25
+  - first:
+      213: -7119521640456485099
+    second: RobotGobrinaFullSpriteSheet_26
+  - first:
+      213: 6964428080423226896
+    second: RobotGobrinaFullSpriteSheet_27
+  - first:
+      213: -8229888305792367614
+    second: RobotGobrinaFullSpriteSheet_28
+  - first:
+      213: 4305347635189200665
+    second: RobotGobrinaFullSpriteSheet_29
+  - first:
+      213: -4806435887935488185
+    second: RobotGobrinaFullSpriteSheet_30
+  - first:
+      213: -1691273574168537323
+    second: RobotGobrinaFullSpriteSheet_31
+  - first:
+      213: 3011306644517379590
+    second: RobotGobrinaFullSpriteSheet_32
+  - first:
+      213: 3610063877206941781
+    second: RobotGobrinaFullSpriteSheet_33
+  - first:
+      213: 7510201503227462912
+    second: RobotGobrinaFullSpriteSheet_34
+  - first:
+      213: -7861064497026954851
+    second: RobotGobrinaFullSpriteSheet_35
+  - first:
+      213: -8207213180339657617
+    second: RobotGobrinaFullSpriteSheet_36
+  - first:
+      213: 8164123046019119541
+    second: RobotGobrinaFullSpriteSheet_37
+  - first:
+      213: -1446900291632693913
+    second: RobotGobrinaFullSpriteSheet_38
+  - first:
+      213: -3691871826919344514
+    second: RobotGobrinaFullSpriteSheet_39
+  - first:
+      213: 6412712714164253511
+    second: RobotGobrinaFullSpriteSheet_40
+  - first:
+      213: -7907650538864755872
+    second: RobotGobrinaFullSpriteSheet_41
+  - first:
+      213: 5026978891063732905
+    second: RobotGobrinaFullSpriteSheet_42
+  - first:
+      213: -9047312396593065688
+    second: RobotGobrinaFullSpriteSheet_43
+  - first:
+      213: -2125526417919304591
+    second: RobotGobrinaFullSpriteSheet_44
+  - first:
+      213: 1743978328708895501
+    second: RobotGobrinaFullSpriteSheet_45
+  - first:
+      213: -6461438278389576480
+    second: RobotGobrinaFullSpriteSheet_46
+  - first:
+      213: 78340306007894982
+    second: RobotGobrinaFullSpriteSheet_47
+  - first:
+      213: -5183849629133806081
+    second: RobotGobrinaFullSpriteSheet_48
+  - first:
+      213: -1022330038508387939
+    second: RobotGobrinaFullSpriteSheet_49
+  - first:
+      213: 8696642677868927628
+    second: RobotGobrinaFullSpriteSheet_50
+  - first:
+      213: 5542194332490440177
+    second: RobotGobrinaFullSpriteSheet_51
+  - first:
+      213: 2816556702961132895
+    second: RobotGobrinaFullSpriteSheet_52
+  - first:
+      213: 7000671863088514106
+    second: RobotGobrinaFullSpriteSheet_53
+  - first:
+      213: 3021801055246586840
+    second: RobotGobrinaFullSpriteSheet_54
+  - first:
+      213: -2555636820479141542
+    second: RobotGobrinaFullSpriteSheet_55
+  - first:
+      213: -1081157737905934996
+    second: RobotGobrinaFullSpriteSheet_56
+  - first:
+      213: -8343894572883622785
+    second: RobotGobrinaFullSpriteSheet_57
+  - first:
+      213: -7806201523076351686
+    second: RobotGobrinaFullSpriteSheet_58
+  - first:
+      213: -8414326989369545802
+    second: RobotGobrinaFullSpriteSheet_59
+  - first:
+      213: 8088574594670632667
+    second: RobotGobrinaFullSpriteSheet_60
+  - first:
+      213: -3248552018800868860
+    second: RobotGobrinaFullSpriteSheet_61
+  - first:
+      213: -3941714893735845423
+    second: RobotGobrinaFullSpriteSheet_62
+  - first:
+      213: 529840202831816893
+    second: RobotGobrinaFullSpriteSheet_63
+  - first:
+      213: -8004352018758777049
+    second: RobotGobrinaFullSpriteSheet_64
+  - first:
+      213: -5651008303382712803
+    second: RobotGobrinaFullSpriteSheet_65
+  - first:
+      213: -1852696677906849335
+    second: RobotGobrinaFullSpriteSheet_66
+  - first:
+      213: -1906041588026669436
+    second: RobotGobrinaFullSpriteSheet_67
+  - first:
+      213: -2784992378460506828
+    second: RobotGobrinaFullSpriteSheet_68
+  - first:
+      213: -2767781558504568333
+    second: RobotGobrinaFullSpriteSheet_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305d1085d47d92720800000000000000
+      internalID: 2822023368713295107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907f71c0847355040800000000000000
+      internalID: 4635672174027863817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2552b3bdec56df490800000000000000
+      internalID: -7710895047872666286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1a1cf5141bf9820800000000000000
+      internalID: 2927253177151627727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cef0ab9628ec5960800000000000000
+      internalID: 7592198324357234368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416861380918cccb0800000000000000
+      internalID: -4842353041655560684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb5b3b6aff9dcc80800000000000000
+      internalID: -8300802640284263446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02894e4eb85b11c50800000000000000
+      internalID: 6634283338538719264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a6cbb993e371ff0800000000000000
+      internalID: -65515252426708336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7637b17514e28cf90800000000000000
+      internalID: -6933240768167709849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81d3e63f18552ea0800000000000000
+      internalID: -5898211245883666034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dddbd27fe4c3f270800000000000000
+      internalID: 8283180672367713749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32f2634ca3725ec0800000000000000
+      internalID: -3579671570103995844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99155d8d142049990800000000000000
+      internalID: -7380271407519411815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19931229d59c63690800000000000000
+      internalID: -7622683915557193327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea06ad08e6ba3c00800000000000000
+      internalID: 881217784882006766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd243d8de51d94e0800000000000000
+      internalID: -1973396951697969729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f360f396e600d9bf0800000000000000
+      internalID: -316095924633926081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61c2b790237576f0800000000000000
+      internalID: -687516784282910357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525f501e87cb70f00800000000000000
+      internalID: 1083041462763255077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcd158b6c066d8e0800000000000000
+      internalID: -1669040205282026241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c2044bb679e2ef0800000000000000
+      internalID: -131000850305766304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512c13c5cb9c6c120800000000000000
+      internalID: 2433854459478131221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5315047dba220c0800000000000000
+      internalID: -4601926928233843225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4842d7bde9df68030800000000000000
+      internalID: 3496761019428840580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83668c5f590118650800000000000000
+      internalID: 6233281595517199928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51782e1f9c0623d90800000000000000
+      internalID: -7119521640456485099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ec165a07e96a060800000000000000
+      internalID: 6964428080423226896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204ca10903099cd80800000000000000
+      internalID: -8229888305792367614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917350e0ddaafbb30800000000000000
+      internalID: 4305347635189200665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f7ae7860c1c4db0800000000000000
+      internalID: -4806435887935488185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517dda125a36788e0800000000000000
+      internalID: -1691273574168537323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e5b38407f4ac920800000000000000
+      internalID: 3011306644517379590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550a36928f5891230800000000000000
+      internalID: 3610063877206941781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0054a77f978993860800000000000000
+      internalID: 7510201503227462912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99064a5d73e7e290800000000000000
+      internalID: -7861064497026954851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6463fd981f1a1e80800000000000000
+      internalID: -8207213180339657617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 169
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9bc8ca7aacc4170800000000000000
+      internalID: 8164123046019119541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76df2dbc9d39bebe0800000000000000
+      internalID: -1446900291632693913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7633304226d3ccc0800000000000000
+      internalID: -3691871826919344514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743346ecc388ef850800000000000000
+      internalID: 6412712714164253511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b3a0f3bb1624290800000000000000
+      internalID: -7907650538864755872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaad37daaa63c540800000000000000
+      internalID: 5026978891063732905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821151d5f4d717280800000000000000
+      internalID: -9047312396593065688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c16330cfc9082e0800000000000000
+      internalID: -2125526417919304591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d035caacc0bd33810800000000000000
+      internalID: 1743978328708895501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec4a76be1c5456a0800000000000000
+      internalID: -6461438278389576480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb223fd712561100800000000000000
+      internalID: 78340306007894982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5607e3a344f08b0800000000000000
+      internalID: -5183849629133806081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d910f7b1f34ffc1f0800000000000000
+      internalID: -1022330038508387939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a11e0507ea0b870800000000000000
+      internalID: 8696642677868927628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd9640b164d9ec40800000000000000
+      internalID: 5542194332490440177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f556eb9066b661720800000000000000
+      internalID: 2816556702961132895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a348674e7f1672160800000000000000
+      internalID: 7000671863088514106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d39fdfac089fe920800000000000000
+      internalID: 3021801055246586840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a599e642add888cd0800000000000000
+      internalID: -2555636820479141542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6da3fdf3c4fef0f0800000000000000
+      internalID: -1081157737905934996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7446f30818843c80800000000000000
+      internalID: -8343894572883622785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39bbe3e21dcaa390800000000000000
+      internalID: -7806201523076351686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb65a62f2e4a3b80800000000000000
+      internalID: -8414326989369545802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde979e1db3604070800000000000000
+      internalID: 8088574594670632667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4020ff48623dae2d0800000000000000
+      internalID: -3248552018800868860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1220130373c49c0800000000000000
+      internalID: -3941714893735845423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8e2857bde5a5700800000000000000
+      internalID: 529840202831816893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727c3b07f34dae090800000000000000
+      internalID: -8004352018758777049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e271e63e59391b0800000000000000
+      internalID: -5651008303382712803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1e0dcff26e946e0800000000000000
+      internalID: -1852696677906849335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4868c8a36416c85e0800000000000000
+      internalID: -1906041588026669436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435f0b3ff28b959d0800000000000000
+      internalID: -2784992378460506828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobotGobrinaFullSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9457d365dd699d0800000000000000
+      internalID: -2767781558504568333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e0bddb68d066ed749a5aeb18ea00ec10
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RobotGobrinaFullSpriteSheet_0: 2822023368713295107
+      RobotGobrinaFullSpriteSheet_1: 4635672174027863817
+      RobotGobrinaFullSpriteSheet_10: -5898211245883666034
+      RobotGobrinaFullSpriteSheet_11: 8283180672367713749
+      RobotGobrinaFullSpriteSheet_12: -3579671570103995844
+      RobotGobrinaFullSpriteSheet_13: -7380271407519411815
+      RobotGobrinaFullSpriteSheet_14: -7622683915557193327
+      RobotGobrinaFullSpriteSheet_15: 881217784882006766
+      RobotGobrinaFullSpriteSheet_16: -1973396951697969729
+      RobotGobrinaFullSpriteSheet_17: -316095924633926081
+      RobotGobrinaFullSpriteSheet_18: -687516784282910357
+      RobotGobrinaFullSpriteSheet_19: 1083041462763255077
+      RobotGobrinaFullSpriteSheet_2: -7710895047872666286
+      RobotGobrinaFullSpriteSheet_20: -1669040205282026241
+      RobotGobrinaFullSpriteSheet_21: -131000850305766304
+      RobotGobrinaFullSpriteSheet_22: 2433854459478131221
+      RobotGobrinaFullSpriteSheet_23: -4601926928233843225
+      RobotGobrinaFullSpriteSheet_24: 3496761019428840580
+      RobotGobrinaFullSpriteSheet_25: 6233281595517199928
+      RobotGobrinaFullSpriteSheet_26: -7119521640456485099
+      RobotGobrinaFullSpriteSheet_27: 6964428080423226896
+      RobotGobrinaFullSpriteSheet_28: -8229888305792367614
+      RobotGobrinaFullSpriteSheet_29: 4305347635189200665
+      RobotGobrinaFullSpriteSheet_3: 2927253177151627727
+      RobotGobrinaFullSpriteSheet_30: -4806435887935488185
+      RobotGobrinaFullSpriteSheet_31: -1691273574168537323
+      RobotGobrinaFullSpriteSheet_32: 3011306644517379590
+      RobotGobrinaFullSpriteSheet_33: 3610063877206941781
+      RobotGobrinaFullSpriteSheet_34: 7510201503227462912
+      RobotGobrinaFullSpriteSheet_35: -7861064497026954851
+      RobotGobrinaFullSpriteSheet_36: -8207213180339657617
+      RobotGobrinaFullSpriteSheet_37: 8164123046019119541
+      RobotGobrinaFullSpriteSheet_38: -1446900291632693913
+      RobotGobrinaFullSpriteSheet_39: -3691871826919344514
+      RobotGobrinaFullSpriteSheet_4: 7592198324357234368
+      RobotGobrinaFullSpriteSheet_40: 6412712714164253511
+      RobotGobrinaFullSpriteSheet_41: -7907650538864755872
+      RobotGobrinaFullSpriteSheet_42: 5026978891063732905
+      RobotGobrinaFullSpriteSheet_43: -9047312396593065688
+      RobotGobrinaFullSpriteSheet_44: -2125526417919304591
+      RobotGobrinaFullSpriteSheet_45: 1743978328708895501
+      RobotGobrinaFullSpriteSheet_46: -6461438278389576480
+      RobotGobrinaFullSpriteSheet_47: 78340306007894982
+      RobotGobrinaFullSpriteSheet_48: -5183849629133806081
+      RobotGobrinaFullSpriteSheet_49: -1022330038508387939
+      RobotGobrinaFullSpriteSheet_5: -4842353041655560684
+      RobotGobrinaFullSpriteSheet_50: 8696642677868927628
+      RobotGobrinaFullSpriteSheet_51: 5542194332490440177
+      RobotGobrinaFullSpriteSheet_52: 2816556702961132895
+      RobotGobrinaFullSpriteSheet_53: 7000671863088514106
+      RobotGobrinaFullSpriteSheet_54: 3021801055246586840
+      RobotGobrinaFullSpriteSheet_55: -2555636820479141542
+      RobotGobrinaFullSpriteSheet_56: -1081157737905934996
+      RobotGobrinaFullSpriteSheet_57: -8343894572883622785
+      RobotGobrinaFullSpriteSheet_58: -7806201523076351686
+      RobotGobrinaFullSpriteSheet_59: -8414326989369545802
+      RobotGobrinaFullSpriteSheet_6: -8300802640284263446
+      RobotGobrinaFullSpriteSheet_60: 8088574594670632667
+      RobotGobrinaFullSpriteSheet_61: -3248552018800868860
+      RobotGobrinaFullSpriteSheet_62: -3941714893735845423
+      RobotGobrinaFullSpriteSheet_63: 529840202831816893
+      RobotGobrinaFullSpriteSheet_64: -8004352018758777049
+      RobotGobrinaFullSpriteSheet_65: -5651008303382712803
+      RobotGobrinaFullSpriteSheet_66: -1852696677906849335
+      RobotGobrinaFullSpriteSheet_67: -1906041588026669436
+      RobotGobrinaFullSpriteSheet_68: -2784992378460506828
+      RobotGobrinaFullSpriteSheet_69: -2767781558504568333
+      RobotGobrinaFullSpriteSheet_7: 6634283338538719264
+      RobotGobrinaFullSpriteSheet_8: -65515252426708336
+      RobotGobrinaFullSpriteSheet_9: -6933240768167709849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
