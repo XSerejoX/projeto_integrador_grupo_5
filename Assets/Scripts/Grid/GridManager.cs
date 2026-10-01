@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
+
     public static GridManager Instance { get; private set; }
 
     [SerializeField] private Grid grid; // uma grid na unity
@@ -23,7 +24,7 @@ public class GridManager : MonoBehaviour
         grid.GetCellCenterWorld(new Vector3Int(cell.x, cell.y, 0)); //transforma o int vector2 em vector3 
 
         // se a cell/coordenada não estiver vazia retorna true
-    public bool IsFree(Vector2Int cell) => !occupants.ContainsKey(cell); 
+    public bool IsFree(Vector2Int cell) => !OutBounds(cell) && !occupants.ContainsKey(cell);
 
     //metodos
         
@@ -39,5 +40,10 @@ public class GridManager : MonoBehaviour
         occupants.Remove(from); //retira a cell (chave)
         occupants[to] = e;      //adiciona uma nova cel a entidade. a entidade moveu.
     }
+
+        //player spawna na cell (-3,-2) na grid
+    public bool OutBounds(Vector2Int cell) =>
+        cell.x < -3 || cell.y < -2 || cell.x > 6 || cell.y > 7;
+
 
 }
