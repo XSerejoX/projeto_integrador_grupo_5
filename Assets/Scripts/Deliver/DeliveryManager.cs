@@ -5,6 +5,7 @@ public class DeliveryManager : MonoBehaviour
 {
     public static DeliveryManager Instance { get; private set; }
 
+    //eventos de coleta de pizzas
     public event Action RawPizzaCollected;
     public event Action BakedPizzaAcquired;
     public event Action PizzaDelivered;

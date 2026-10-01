@@ -20,6 +20,7 @@ public class Collectible : MonoBehaviour
 
         inventory.AddRawPizza(); //se sim, add a raw pizza
         DeliveryManager.Instance.NotifyRawPizzaCollected();
+        Debug.Log($"[Delivery] Pizza crua coletada em {cell}. Total cru no inventário: {inventory.RawPizzaCount}");
         Destroy(gameObject);
         return true;
     }

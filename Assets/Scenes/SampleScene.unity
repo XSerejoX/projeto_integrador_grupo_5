@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!1 &330203285
 GameObject:
   m_ObjectHideFlags: 0
