@@ -52,4 +52,6 @@ public class GridEntity : MonoBehaviour
         transform.position = target; //resetando posicao
         IsAnimating = false;
     }
+
+
 }
