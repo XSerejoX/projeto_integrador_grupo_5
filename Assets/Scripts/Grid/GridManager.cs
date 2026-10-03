@@ -43,7 +43,7 @@ public class GridManager : MonoBehaviour
 
         //player spawna na cell (-3,-2) na grid
     public bool OutBounds(Vector2Int cell) =>
-        cell.x < -3 || cell.y < -2 || cell.x > 6 || cell.y > 7;
+        cell.x < -3 || cell.y < -4 || cell.x > 6 || cell.y > 7;
 
 
 }
