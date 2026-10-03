@@ -3,13 +3,20 @@ using UnityEngine;
 
 public class PerseguidorController : GridEntity
 {
+    
     [SerializeField] private NewPlayerController player;
     [SerializeField] private TurnManager turnManager;
+    [SerializeField] private Animator animator;
+    
     private bool isTakingTurn;
     private bool hasPendingTurn;
 
     public bool isContactWithEnemy = false; // se encostar no player
    
+    private static readonly int PersDirX = Animator.StringToHash("PersDirX");
+    private static readonly int PersDirY = Animator.StringToHash("PersDirY");
+    private static readonly int IsPersMoving = Animator.StringToHash("IsPersMoving");
+    
     private void OnEnable()
     {
         if (player == null)
@@ -38,6 +45,7 @@ public class PerseguidorController : GridEntity
     private IEnumerator ProcessTurns()
     {
         isTakingTurn = true;
+        
         while (hasPendingTurn && player != null)
         {
             hasPendingTurn = false;
@@ -45,7 +53,6 @@ public class PerseguidorController : GridEntity
             yield return TakeTurn(player);
         }
         isTakingTurn = false;
-        
         // devolve o turno pro player, senão o Update dele nunca mais aceita input
         turnManager.isPlayerTurn = true;
     }
@@ -66,6 +73,8 @@ public class PerseguidorController : GridEntity
 
         foreach (var dir in new[] { first, second }) //cria um array e implementa a direction
         {
+            OnMoveStart(dir);
+
             if (dir == Vector2Int.zero) continue;
 
             Vector2Int target = Cell + dir; // target do peseguidor
@@ -83,6 +92,11 @@ public class PerseguidorController : GridEntity
             }
 
             if (TryMove(dir)) break; // andou; senão tenta o próximo eixo
+            
+            OnMoveEnd();
+
+
+        
         }
 
         // Espera as animações acabarem antes de liberar o turno
@@ -94,6 +108,22 @@ public class PerseguidorController : GridEntity
         // Se o player tem espaço atrás, é empurrado e o perseguidor ocupa a célula dele.
         // Se tem parede atrás, nada acontece (o perseguidor fica onde está).
         if (player.TryMove(dir))
-            TryMove(dir);
+            TryMove(dir); // esse dir é a direção do perseguidor
+    }
+
+        //metodos virtuais que foram sobrescritos
+        //lida com a animação do perseguidor, setando os parametros no animator
+      protected override void OnMoveStart(Vector2Int dir)
+    {
+        if (animator == null) return;
+        animator.SetFloat(PersDirX, dir.x);
+        animator.SetFloat(PersDirY, dir.y);
+        animator.SetBool(IsPersMoving, true);
+    }
+
+    protected override void OnMoveEnd()
+    {
+        if (animator == null) return;
+        animator.SetBool(IsPersMoving, false);
     }
 }

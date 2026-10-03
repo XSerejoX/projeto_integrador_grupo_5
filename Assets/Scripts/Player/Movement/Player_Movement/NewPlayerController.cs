@@ -4,18 +4,41 @@ using UnityEngine;
 public class NewPlayerController : GridEntity
 {
     private InputActions inputActions;
+    
+    [SerializeField] private Animator animator;
+
+    private static readonly int DirX = Animator.StringToHash("DirX");
+    private static readonly int DirY = Animator.StringToHash("DirY");
+    private static readonly int IsMoving = Animator.StringToHash("IsMoving");
 
     public TurnManager turnManager;
     public PlayerInventory Inventory;
     public Collectible[] collectibles; 
 
     public event Action Moved;
+    
 
     [Header("Dash")]
     [SerializeField] private int dashSteps = 2;      // quantas células o dash percorre
     [SerializeField] private int maxDashCharges = 2; // quantidade de dashes disponíveis
     private int dashCharges;
 
+        //metodos virtuais que foram sobrescritos
+        //lida com a animação do player, setando os parametros no animator
+    protected override void OnMoveStart(Vector2Int dir)
+    {
+        if (animator == null) return;
+        animator.SetFloat(DirX, dir.x);
+        animator.SetFloat(DirY, dir.y);
+        animator.SetBool(IsMoving, true);
+    }
+
+    protected override void OnMoveEnd()
+    {
+        if (animator == null) return;
+        animator.SetBool(IsMoving, false);
+    }
+    
     protected override void Start()
     {
         base.Start();
@@ -78,7 +101,9 @@ public class NewPlayerController : GridEntity
 
         if (dashRequested) ConsumeDash();//se usou dash, diminui carga
 
+        
         turnManager.EndPlayerTurn();
+    
     }
 
     public int DashCharges => dashCharges;
