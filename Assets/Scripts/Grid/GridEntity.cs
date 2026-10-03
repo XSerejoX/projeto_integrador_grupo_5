@@ -3,8 +3,14 @@ using UnityEngine;
 
 public class GridEntity : MonoBehaviour
 {
-    [SerializeField] private float visualSpeed = 6f;
+    [SerializeField] private float visualSpeed = 3f;
 
+    [SerializeField] private Animator animator;
+
+    private static readonly int DirX = Animator.StringToHash("DirX");
+    private static readonly int DirY = Animator.StringToHash("DirY");
+    private static readonly int IsMoving = Animator.StringToHash("IsMoving");
+    
     public Vector2Int Cell { get; private set; }
     public bool IsAnimating { get; private set; }
 
@@ -26,19 +32,26 @@ public class GridEntity : MonoBehaviour
 
         GridManager.Instance.Move(this, Cell, target); //movendo a entity
         Cell = target; //resetando a cell
-        SlideToCurrentCell();//deslocamento visual
+        SlideToCurrentCell(dir);//deslocamento visual
         return true;
     }
 
-    private void SlideToCurrentCell()
+    private void SlideToCurrentCell(Vector2Int dir)
     {
         if (anim != null) StopCoroutine(anim);
-        anim = StartCoroutine(Slide());
+        anim = StartCoroutine(Slide(dir));
     }
 
-    private IEnumerator Slide()
+    private IEnumerator Slide(Vector2Int dir)
     {
         IsAnimating = true;
+        if (animator != null)
+        {
+            animator.SetFloat(DirX, dir.x); //settando as direções no animator
+            animator.SetFloat(DirY, dir.y);
+            animator.SetBool(IsMoving, true); //setta o bool de movimento
+        }
+        
         Vector3 target = GridManager.Instance.CellToWorld(Cell);
 
             //movimento visual
@@ -51,6 +64,10 @@ public class GridEntity : MonoBehaviour
 
         transform.position = target; //resetando posicao
         IsAnimating = false;
+
+        if (animator != null)
+            animator.SetBool(IsMoving, false); // volta pro Idle
+    
     }
 
 

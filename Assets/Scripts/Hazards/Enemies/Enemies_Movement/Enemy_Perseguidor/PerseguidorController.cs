@@ -8,14 +8,15 @@ public class PerseguidorController : GridEntity
     private bool isTakingTurn;
     private bool hasPendingTurn;
 
-    [System.Obsolete]
+    public bool isContactWithEnemy = false; // se encostar no player
+   
     private void OnEnable()
     {
         if (player == null)
-            player = FindObjectOfType<NewPlayerController>();
+            player = FindAnyObjectByType<NewPlayerController>();
 
         if (turnManager == null)
-            turnManager = FindObjectOfType<TurnManager>();
+            turnManager = FindAnyObjectByType<TurnManager>();
 
         if (player != null)
             player.Moved += HandlePlayerMoved;
@@ -44,7 +45,7 @@ public class PerseguidorController : GridEntity
             yield return TakeTurn(player);
         }
         isTakingTurn = false;
-
+        
         // devolve o turno pro player, senão o Update dele nunca mais aceita input
         turnManager.isPlayerTurn = true;
     }
@@ -71,6 +72,12 @@ public class PerseguidorController : GridEntity
 
             if (target == player.Cell) //knock back se chegar no player
             {
+                isContactWithEnemy = true; // player pode tomar dano
+                
+                PlayerHealth health = player.GetComponent<PlayerHealth>();
+                if (health != null)
+                health.TakeDamage(dir);//aciona o TakeDamage do PlayerHealth
+                
                 TryKnockback(player, dir); 
                 break;
             }
