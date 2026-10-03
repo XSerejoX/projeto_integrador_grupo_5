@@ -1,0 +1,37 @@
+* [33maadc8fd[m[33m ([m[1;32mmain[m[33m)[m (vida, gameover e anim)
+[31m|[m * [33m6b410fc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #9 from XSerejoX/joaotavares
+[31m|[m[31m/[m[33m|[m 
+[31m|[m *   [33ma3284e6[m Merge branch 'main' of https://github.com/XSerejoX/projeto_integrador_grupo_5 into joaotavares
+[31m|[m [34m|[m[31m\[m  
+[31m|[m [34m|[m[31m/[m  
+[31m|[m[31m/[m[34m|[m   
+* [34m|[m [33mdc4dd42[m (resolvendo git ignore)
+* [34m|[m   [33md1c01a3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mgabriel[m[33m, [m[1;31morigin/gabriel[m[33m)[m Merge pull request #8 from XSerejoX/Tavares
+[36m|[m[1;31m\[m [34m\[m  
+* [1;31m\[m [34m\[m   [33m89ee37b[m Merge pull request #7 from XSerejoX/gabriel
+[1;32m|[m[1;33m\[m [1;31m\[m [34m\[m  
+[1;32m|[m * [1;31m|[m [34m|[m [33me1728a1[m (codigo pro player nao sair do mapa)
+[1;32m|[m [1;33m|[m [1;31m|[m * [33m7412b9d[m ajustes branch joao
+[1;32m|[m [1;33m|[m [1;31m|[m[1;31m/[m  
+[1;32m|[m [1;33m|[m * [33m997d2ad[m[33m ([m[1;31morigin/Tavares[m[33m)[m Atualizaçao Artistica
+[1;32m|[m [1;33m|[m *   [33m795fc99[m Merge branch 'main' into Tavares
+[1;32m|[m [1;33m|[m [1;34m|[m[1;32m\[m  
+[1;32m|[m [1;33m|[m[1;32m_[m[1;34m|[m[1;32m/[m  
+[1;32m|[m[1;32m/[m[1;33m|[m [1;34m|[m   
+* [1;33m|[m [1;34m|[m [33m89572db[m Merge pull request #6 from XSerejoX/gabriel
+[1;36m|[m[1;33m\[m[1;33m|[m [1;34m|[m 
+[1;36m|[m * [1;34m|[m [33m3d6f53d[m (sistema de grade e loop)
+[1;36m|[m[1;36m/[m [1;34m/[m  
+* [1;34m|[m   [33m2f27c6f[m Merge pull request #5 from XSerejoX/gabriel
+[32m|[m[33m\[m [1;34m\[m  
+[32m|[m * [1;34m|[m [33me7cff29[m (loop de interação)
+* [33m|[m [1;34m|[m [33mc618730[m Merge pull request #4 from XSerejoX/gabriel
+[34m|[m[33m\[m[33m|[m [1;34m|[m 
+[34m|[m * [1;34m|[m [33m1b8b1d8[m (dash e player collision)
+[34m|[m [35m|[m * [33me903691[m Atualização das Animações Gobrina
+[34m|[m [35m|[m[34m/[m  
+[34m|[m[34m/[m[35m|[m   
+* [35m|[m [33m844591d[m Merge pull request #3 from XSerejoX/gabriel
+[36m|[m[35m\[m[35m|[m 
+[36m|[m * [33m8ec1932[m (limite do mapa e otimização de código)
+[36m|[m * [33m23994fd[m (add turnos e inimigo perseguidor)

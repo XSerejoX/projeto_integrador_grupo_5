@@ -4,12 +4,6 @@ using UnityEngine;
 public class GridEntity : MonoBehaviour
 {
     [SerializeField] private float visualSpeed = 3f;
-
-    [SerializeField] private Animator animator;
-
-    private static readonly int DirX = Animator.StringToHash("DirX");
-    private static readonly int DirY = Animator.StringToHash("DirY");
-    private static readonly int IsMoving = Animator.StringToHash("IsMoving");
     
     public Vector2Int Cell { get; private set; }
     public bool IsAnimating { get; private set; }
@@ -45,12 +39,7 @@ public class GridEntity : MonoBehaviour
     private IEnumerator Slide(Vector2Int dir)
     {
         IsAnimating = true;
-        if (animator != null)
-        {
-            animator.SetFloat(DirX, dir.x); //settando as direções no animator
-            animator.SetFloat(DirY, dir.y);
-            animator.SetBool(IsMoving, true); //setta o bool de movimento
-        }
+        OnMoveStart(dir);
         
         Vector3 target = GridManager.Instance.CellToWorld(Cell);
 
@@ -65,10 +54,12 @@ public class GridEntity : MonoBehaviour
         transform.position = target; //resetando posicao
         IsAnimating = false;
 
-        if (animator != null)
-            animator.SetBool(IsMoving, false); // volta pro Idle
+        OnMoveEnd();
     
     }
-
-
+        //metodos virtuais para serem sobrescritos
+        //para individualizar o que acontece no inicio e fim do movimento
+        //isso é util para animacoes    
+    protected virtual void OnMoveStart(Vector2Int dir) { }
+    protected virtual void OnMoveEnd() { }
 }
