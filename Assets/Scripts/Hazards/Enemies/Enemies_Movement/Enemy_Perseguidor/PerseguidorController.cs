@@ -16,7 +16,8 @@ public class PerseguidorController : GridEntity
     private static readonly int PersDirX = Animator.StringToHash("PersDirX");
     private static readonly int PersDirY = Animator.StringToHash("PersDirY");
     private static readonly int IsPersMoving = Animator.StringToHash("IsPersMoving");
-    
+    private static readonly int IsTryToMove = Animator.StringToHash("IsTryToMove");
+
     private void OnEnable()
     {
         if (player == null)
@@ -54,7 +55,9 @@ public class PerseguidorController : GridEntity
         }
         isTakingTurn = false;
         // devolve o turno pro player, senão o Update dele nunca mais aceita input
+        OnMoveEnd();
         turnManager.isPlayerTurn = true;
+
     }
 
     public IEnumerator TakeTurn(GridEntity player) // exemplo: player x2 - inimigo x4 = inimigo -x2
@@ -73,7 +76,6 @@ public class PerseguidorController : GridEntity
 
         foreach (var dir in new[] { first, second }) //cria um array e implementa a direction
         {
-            OnMoveStart(dir);
 
             if (dir == Vector2Int.zero) continue;
 
@@ -92,8 +94,10 @@ public class PerseguidorController : GridEntity
             }
 
             if (TryMove(dir)) break; // andou; senão tenta o próximo eixo
+
+            animator.SetBool(IsTryToMove, true);
             
-            OnMoveEnd();
+            
 
 
         
