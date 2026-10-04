@@ -2,8 +2,16 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    public enum CollectibleType
+    {
+        RawPizza,
+        Coin
+    }
+
     [SerializeField] private Vector2Int cell;
+    [SerializeField] private CollectibleType type;
     public Vector2Int Cell => cell;
+    public CollectibleType Type => type;
 
     void Start()
     {
@@ -11,16 +19,22 @@ public class Collectible : MonoBehaviour
         transform.position = GridManager.Instance.CellToWorld(cell);
     }
 
-    // Chamado pelo PlayerController depois de um TryMove bem sucedido
-    
-        //checa se o collectible o player tao na mesma celula
     public bool TryCollect(PlayerInventory inventory, Vector2Int playerCell)
     {
         if (playerCell != cell) return false;
 
-        inventory.AddRawPizza(); //se sim, add a raw pizza
-        DeliveryManager.Instance.NotifyRawPizzaCollected();
-        Debug.Log($"[Delivery] Pizza crua coletada em {cell}. Total cru no inventário: {inventory.RawPizzaCount}");
+        if (type == CollectibleType.RawPizza)
+        {
+            inventory.AddRawPizza();
+            DeliveryManager.Instance?.NotifyRawPizzaCollected();
+            Debug.Log($"[Delivery] Pizza crua coletada em {cell}. Total cru no inventário: {inventory.RawPizzaCount}");
+        }
+        else
+        {
+            inventory.AddCoin();
+            Debug.Log($"Moeda coletada em {cell}. Total de moedas no inventário: {inventory.CoinCount}");
+        }
+
         Destroy(gameObject);
         return true;
     }

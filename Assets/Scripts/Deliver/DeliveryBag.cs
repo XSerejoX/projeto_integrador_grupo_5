@@ -21,19 +21,17 @@ public class DeliveryBag : GridEntity
 
     private void TryDeliver()
     {
-        //se ta adjacente e consumiu a baked pizza - pizza delivered
         if (!IsAdjacent(player.Cell)) return;
-        if (!player.Inventory.TryConsumeBakedPizza()) return;
 
-        DeliveryManager.Instance.NotifyPizzaDelivered();
-        Debug.Log($"[Delivery] Pizza entregue na sacola em {Cell}! Placar atual: {DeliveryManager.Instance.Score}");
+        int delivered = player.Inventory.ConsumeAllBakedPizzas();
+        if (delivered <= 0) return; // não tinha pizza assada nenhuma, nada acontece
 
+        DeliveryManager.Instance.NotifyPizzaDelivered(delivered);
+        Debug.Log($"[Delivery] {delivered} pizza(s) entregue(s) na sacola em {Cell}!");
     }
 
     private bool IsAdjacent(Vector2Int otherCell)
     {
-        //se a distancia da celula x/y do player com a atual for 1: true
-        
         Vector2Int diff = otherCell - Cell;
         return Mathf.Abs(diff.x) + Mathf.Abs(diff.y) == 1;
     }

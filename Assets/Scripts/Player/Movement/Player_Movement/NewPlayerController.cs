@@ -43,6 +43,7 @@ public class NewPlayerController : GridEntity
     {
         base.Start();
         dashCharges = maxDashCharges;
+        DeliveryManager.Instance?.SetPizzaCollectionGoal(collectibles);
     }
 
     private void Awake()

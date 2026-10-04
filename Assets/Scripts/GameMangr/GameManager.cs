@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    void Start()
+    {
+        var collectibles = FindObjectsByType<Collectible>(FindObjectsInactive.Exclude);
+        DeliveryManager.Instance.SetPizzaCollectionGoal(collectibles);
+    }
+
     public void TriggerGameOver()
     {
         if (endSequenceStarted) return;
@@ -40,24 +46,9 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log(result == GameEndState.GameOver ? "[Game] Derrota..." : "[Game] Vitória!");
 
-        // Jogo continua rodando
         yield return new WaitForSeconds(dramaticDelay);
 
         EndState = result;
-        if (result == GameEndState.GameOver)
-        {
-            Restart();
-            yield break;
-        }
-
-        Time.timeScale = 0f;
-    
-        if (result == GameEndState.Victory)
-        {
-            Restart();
-            yield break;
-        }
-
         Time.timeScale = 0f;
     }
 
@@ -66,7 +57,4 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-    
-
 }
