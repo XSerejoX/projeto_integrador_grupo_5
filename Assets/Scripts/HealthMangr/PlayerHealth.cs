@@ -33,6 +33,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         if (perseguidorController.isContactWithEnemy)
         {
             currentHealth -= damageAmount;
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.gobrinaSofreDano);
             Debug.Log($"Player tomou dano! Vida atual: {currentHealth}", this);
             perseguidorController.isContactWithEnemy = false; 
         
@@ -54,7 +55,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
             animator.SetFloat(DeathY, attackDirection.y);
             animator.SetBool(IsDead, true);
         }
-
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.death);
         GameManager.Instance.TriggerGameOver();
     }
 
