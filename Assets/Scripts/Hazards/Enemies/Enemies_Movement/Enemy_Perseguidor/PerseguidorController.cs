@@ -16,7 +16,6 @@ public class PerseguidorController : GridEntity
     private static readonly int PersDirX = Animator.StringToHash("PersDirX");
     private static readonly int PersDirY = Animator.StringToHash("PersDirY");
     private static readonly int IsPersMoving = Animator.StringToHash("IsPersMoving");
-    private static readonly int IsTryToMove = Animator.StringToHash("IsTryToMove");
 
     private void OnEnable()
     {
@@ -93,12 +92,7 @@ public class PerseguidorController : GridEntity
                 break;
             }
 
-            if (TryMove(dir)) break; // andou; senão tenta o próximo eixo
-
-            animator.SetBool(IsTryToMove, true);
-            
-            
-
+            if (TryMove(dir)) break; // andou; senão tenta o próximo eixo            
 
         
         }

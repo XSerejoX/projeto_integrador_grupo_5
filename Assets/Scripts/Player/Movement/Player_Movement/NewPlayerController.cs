@@ -100,9 +100,10 @@ public class NewPlayerController : GridEntity
         foreach (var c in collectibles) //para cada collectible(pizza,coin)
             if (c != null && c.TryCollect(Inventory, Cell)) break;
 
-        if (dashRequested) ConsumeDash();//se usou dash, diminui carga
-
-        
+        if (dashRequested){ 
+            ConsumeDash();//se usou dash, diminui carga
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.dash);
+        }        
         turnManager.EndPlayerTurn();
     
     }

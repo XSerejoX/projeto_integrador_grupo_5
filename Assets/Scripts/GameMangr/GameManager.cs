@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     {
         if (endSequenceStarted) return;
         endSequenceStarted = true;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.vitoria);
         StartCoroutine(EndSequence(GameEndState.Victory));
     }
 

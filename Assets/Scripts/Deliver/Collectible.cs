@@ -27,11 +27,15 @@ public class Collectible : MonoBehaviour
         {
             inventory.AddRawPizza();
             DeliveryManager.Instance?.NotifyRawPizzaCollected();
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.pickPizzaEnlatada);
+
             Debug.Log($"[Delivery] Pizza crua coletada em {cell}. Total cru no inventário: {inventory.RawPizzaCount}");
         }
         else
         {
             inventory.AddCoin();
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.pickMoeda);
+
             Debug.Log($"Moeda coletada em {cell}. Total de moedas no inventário: {inventory.CoinCount}");
         }
 

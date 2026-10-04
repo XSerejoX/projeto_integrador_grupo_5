@@ -46,7 +46,8 @@ public class Oven : GridEntity
         if (turnsRemaining <= 0) //quando termina o periodo o forno fica pronto
             Debug.Log($"[Delivery] Forno em {Cell}: pizza PRONTA! Pode retirar.");
             current = State.Ready;
-    }
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.pizzaPronta);
+        }
 
     // Chamado automaticamente toda vez que o player termina de mover
     private void TryInteract()
@@ -61,6 +62,8 @@ public class Oven : GridEntity
             {
                 current = State.Baking; //põe forno pra assar
                 turnsRemaining = bakeDuration; //setta o periodo de assamento
+                Debug.Log("[Audio] startForno tocando AGORA");
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.startForno);
             }
         }
         else if (current == State.Ready) //caso teja perto e o forno teja pronto:

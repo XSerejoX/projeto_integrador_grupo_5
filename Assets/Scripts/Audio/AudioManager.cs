@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance { get; private set; }
+
     [Header("------------Audio Source------------")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
 
-
-    [Header("------------Audio Source------------")]
+    [Header("------------Clips------------")]
     public AudioClip background;
     public AudioClip death;
     public AudioClip pickPizzaEnlatada;
@@ -17,6 +18,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip dash;
     public AudioClip vitoria;
     public AudioClip gobrinaSofreDano;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
