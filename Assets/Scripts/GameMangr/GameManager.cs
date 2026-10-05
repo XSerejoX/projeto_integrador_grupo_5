@@ -46,11 +46,10 @@ public class GameManager : MonoBehaviour
     private IEnumerator EndSequence(GameEndState result)
     {
         Debug.Log(result == GameEndState.GameOver ? "[Game] Derrota..." : "[Game] Vitória!");
-
+        EndState = result;
         yield return new WaitForSeconds(dramaticDelay);
 
-        EndState = result;
-        Time.timeScale = 0f;
+        Restart(); 
     }
 
     public void Restart()
