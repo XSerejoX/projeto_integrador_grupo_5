@@ -6541,7 +6541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Voc\xEA \xE9 gobrina e deve pegar as pizzas em lata, leva-las at\xE9 o forno, pegar quando estiverem prontas e ent\xE3o sair sem ser pega! \nW (cima)/A (esquerda/D (direita)/S (baixo)\nSegurar Shift + tecla de movimento = dash na dire\xE7\xE3o"
+  m_text: "Voc\xEA \xE9 gobrina e deve pegar as pizzas em lata, leva-las at\xE9 o forno, pegar quando estiverem prontas e ent\xE3o sair sem ser pega! \nW (cima)/A (esquerda/D (direita)/S (baixo)\nSegurar Shift + tecla de movimento = dash na dire\xE7\xE3o\nA pizza fica pronta depois de 2 turnos dela ter entrado no forno\n1 Movimento = 1 turno"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
