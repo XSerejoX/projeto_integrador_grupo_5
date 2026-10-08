@@ -17,7 +17,7 @@ public class NewPlayerController : GridEntity
 
     public event Action Moved;
     
-//
+
     [Header("Dash")]
     [SerializeField] private int dashSteps = 3;      // quantas células o dash percorre
     [SerializeField] private int maxDashCharges = 2; // quantidade de dashes disponíveis
