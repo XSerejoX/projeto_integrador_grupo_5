@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneDemo.unity
     guid: ebfcd32ca32d7c041a25df131d50d6df
+  - enabled: 0
+    path: Assets/sceneCopy.unity
+    guid: 145e06cf2e40c0948b3b7f59694b99e5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2165623f19017b94592a69eb2842a60e, type: 3}
