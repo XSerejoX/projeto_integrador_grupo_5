@@ -6,8 +6,11 @@ public class Oven : GridEntity
         //maquina de estados simples para o forno
     private enum State { Idle, Baking, Ready }
 
-    [SerializeField] private int bakeDuration = 3; // turnos totais pra assar
+    [SerializeField] private int bakeDuration = 5; // turnos totais pra assar
     [SerializeField] private NewPlayerController player;
+    [SerializeField] private Animator animator;
+        private static readonly int IsBaking = Animator.StringToHash("IsBaking");
+
 
     private State current = State.Idle;
     private int turnsRemaining; // turnos que faltam pra assar
@@ -39,15 +42,20 @@ public class Oven : GridEntity
     private void Tick()
     {
         if (current != State.Baking) return; //so funciona se tiver baking
-
         turnsRemaining--; 
         Debug.Log($"[Delivery] Forno em {Cell} assando... faltam {turnsRemaining} movimentos.");
 
+        
+
+
         if (turnsRemaining <= 0) //quando termina o periodo o forno fica pronto
+        {
             Debug.Log($"[Delivery] Forno em {Cell}: pizza PRONTA! Pode retirar.");
             current = State.Ready;
+            animator.SetBool(IsBaking, false);
             AudioManager.Instance.PlaySFX(AudioManager.Instance.pizzaPronta);
         }
+    }
 
     // Chamado automaticamente toda vez que o player termina de mover
     private void TryInteract()
@@ -63,6 +71,8 @@ public class Oven : GridEntity
                 current = State.Baking; //põe forno pra assar
                 turnsRemaining = bakeDuration; //setta o periodo de assamento
                 Debug.Log("[Audio] startForno tocando AGORA");
+                
+                animator.SetBool(IsBaking, true);
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.startForno);
             }
         }
