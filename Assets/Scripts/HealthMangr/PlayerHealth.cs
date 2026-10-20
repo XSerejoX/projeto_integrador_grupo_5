@@ -7,8 +7,6 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     public int damageAmount = 1; // temporariamente 1, porque tem 1 inimgo
     
-    public PerseguidorController perseguidorController;
-
     [SerializeField] private Animator animator;
 
     private static readonly int DeathX = Animator.StringToHash("DeathX");
@@ -20,29 +18,16 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         currentHealth = maxHealth;
     }
     
-       private void OnEnable()
+    public void TakeDamage(Vector2Int attackDirection, EnemyHazard attacker)
     {
-        if (perseguidorController == null)
-        {
-            perseguidorController = FindAnyObjectByType<PerseguidorController>();
-        }  
-    } 
+        if (attacker == null) return;
 
-    public void TakeDamage(Vector2Int attackDirection)
-    {
-        if (perseguidorController.isContactWithEnemy)
-        {
-            currentHealth -= damageAmount;
-            AudioManager.Instance.PlaySFX(AudioManager.Instance.gobrinaSofreDano);
-            Debug.Log($"Player tomou dano! Vida atual: {currentHealth}", this);
-            perseguidorController.isContactWithEnemy = false; 
-        
-            if (currentHealth <= 0)
-            {
-                Die(attackDirection);
-            
-            }
-        }
+        currentHealth -= damageAmount;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.gobrinaSofreDano);
+        Debug.Log($"Player tomou dano! Vida atual: {currentHealth}", this);
+
+        if (currentHealth <= 0)
+            Die(attackDirection);
     }
 
      private void Die(Vector2Int attackDirection)

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PerseguidorController : GridEntity
+public class PerseguidorController : EnemyHazard
 {
     [SerializeField] private NewPlayerController player;
     [SerializeField] private TurnManager turnManager;
@@ -10,8 +10,6 @@ public class PerseguidorController : GridEntity
 
     private bool isTakingTurn;
     private bool hasPendingTurn;
-
-    public bool isContactWithEnemy = false; // se encostar no player
 
     private static readonly int PersDirX = Animator.StringToHash("PersDirX");
     private static readonly int PersDirY = Animator.StringToHash("PersDirY");
@@ -49,7 +47,8 @@ public class PerseguidorController : GridEntity
         while (hasPendingTurn && player != null)
         {
             hasPendingTurn = false;
-            while (player.IsAnimating) yield return null;
+                //espera a animção do player acabar
+            while (player.IsAnimating) yield return null; 
             yield return TakeTurn(player);
         }
 
@@ -67,11 +66,9 @@ public class PerseguidorController : GridEntity
 
             if (target == player.Cell) // chegou do lado do player: ataca + knockback
             {
-                isContactWithEnemy = true;
-
                 PlayerHealth health = player.GetComponent<PlayerHealth>();
                 if (health != null)
-                    health.TakeDamage(dir);
+                    health.TakeDamage(dir, this);
 
                 TryKnockback(player, dir);
             }

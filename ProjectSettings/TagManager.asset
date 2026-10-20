@@ -6,8 +6,9 @@ TagManager:
   tags:
   - Obstacle
   - Enemy
-  - WallChecker
   - Audio
+  - RawPizza
+  - Coin
   layers:
   - Default
   - TransparentFX

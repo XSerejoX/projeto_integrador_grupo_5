@@ -1,45 +1,58 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    public enum CollectibleType
-    {
-        RawPizza,
-        Coin
-    }
+    private static readonly HashSet<int> CollectedIds = new HashSet<int>();
 
     [SerializeField] private Vector2Int cell;
-    [SerializeField] private CollectibleType type;
     public Vector2Int Cell => cell;
-    public CollectibleType Type => type;
+    public bool IsRawPizza => CompareTag("RawPizza");
 
-    void Start()
+    private void Start()
     {
         cell = GridManager.Instance.WorldToCell(transform.position);
         transform.position = GridManager.Instance.CellToWorld(cell);
     }
 
-    public bool TryCollect(PlayerInventory inventory, Vector2Int playerCell)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (playerCell != cell) return false;
+        if (!other.CompareTag("Player")) return;
 
-        if (type == CollectibleType.RawPizza)
+
+        var inventory = other.GetComponentInParent<PlayerInventory>();
+        if (inventory == null)
+        {
+            return;
+        }
+
+        if (CompareTag("RawPizza"))
         {
             inventory.AddRawPizza();
             DeliveryManager.Instance?.NotifyRawPizzaCollected();
-            AudioManager.Instance.PlaySFX(AudioManager.Instance.pickPizzaEnlatada);
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.pickPizzaEnlatada);
+            }
 
             Debug.Log($"[Delivery] Pizza crua coletada em {cell}. Total cru no inventário: {inventory.RawPizzaCount}");
         }
-        else
+        else if (CompareTag("Coin"))
         {
             inventory.AddCoin();
-            AudioManager.Instance.PlaySFX(AudioManager.Instance.pickMoeda);
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.pickMoeda);
+            }
 
             Debug.Log($"Moeda coletada em {cell}. Total de moedas no inventário: {inventory.CoinCount}");
         }
+        else
+        {
+            Debug.LogWarning($"Collectible on {name} has unsupported tag '{tag}'.");
+            return;
+        }
 
         Destroy(gameObject);
-        return true;
     }
 }

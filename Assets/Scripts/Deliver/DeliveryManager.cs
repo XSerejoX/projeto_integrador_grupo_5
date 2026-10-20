@@ -25,7 +25,7 @@ public class DeliveryManager : MonoBehaviour
         if (collectibles == null) return;
 
         foreach (var collectible in collectibles)
-            if (collectible != null && collectible.Type == Collectible.CollectibleType.RawPizza)
+            if (collectible != null && collectible.IsRawPizza)
                 totalPizzasToCollect++;
 
         Debug.Log($"[Delivery] Meta definida: {totalPizzasToCollect} pizzas.");

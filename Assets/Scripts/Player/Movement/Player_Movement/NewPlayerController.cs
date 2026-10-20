@@ -68,7 +68,9 @@ public class NewPlayerController : GridEntity
 
     private void Update()
     {
-        //retorna nada se nao for vez do player ou se tiver animando   
+        if (GameManager.Instance != null && GameManager.Instance.IsGameOver) return;
+
+        //retorna nada se nao for vez do player ou se tiver animando
         if (!turnManager.isPlayerTurn || IsAnimating) return;
 
         var moveAction = inputActions.Player.Move; //acao move
@@ -96,9 +98,6 @@ public class NewPlayerController : GridEntity
         if (moved == 0) return; // se a celula ta bloqueada: não gasta turno
 
         Moved?.Invoke(); // dispara Tick() do forno + TryInteract() do forno/bag
-
-        foreach (var c in collectibles) //para cada collectible(pizza,coin)
-            if (c != null && c.TryCollect(Inventory, Cell)) break;
 
         if (dashRequested){ 
             ConsumeDash();//se usou dash, diminui carga
