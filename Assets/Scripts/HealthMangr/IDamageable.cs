@@ -2,7 +2,7 @@ using UnityEngine;
 
 public interface IDamageable
 {
-        public void TakeDamage(Vector2Int attackDirection);
+        public void TakeDamage(Vector2Int attackDirection, EnemyHazard attacker);
 
 }
 
