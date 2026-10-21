@@ -203,7 +203,6 @@ MonoBehaviour:
   player: {fileID: 0}
   turnManager: {fileID: 1385379027}
   animator: {fileID: 0}
-  isContactWithEnemy: 0
 --- !u!114 &96417477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 340340419}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2406045, y: -0.16204739, z: -10}
+  m_LocalPosition: {x: -6.28, y: -0.16204739, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -898,7 +897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7258308822088873510, guid: fbab2e6b41b3a3f4083d04b2fe232d4f, type: 3}
       propertyPath: m_Name
-      value: SpriteSheet_Map_60
+      value: Esteira_Vertical
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -955,7 +954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237603098992139510, guid: 85d7c3498b9356148a9dfe70b8ef930d, type: 3}
       propertyPath: m_Name
-      value: SpriteSheet_Map_35
+      value: Spikes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1012,7 +1011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9117272413952127071, guid: 51e6ca10d50519b4e91b0a82e7967988, type: 3}
       propertyPath: m_Name
-      value: SpriteSheet_Map_69
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1143,7 +1142,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3171147130464152110, guid: 2d6ef314e078ca84d8d3bf3f6fff5f0e, type: 3}
       propertyPath: m_Name
-      value: Sprite_itens_loop_0
+      value: Forno
       objectReference: {fileID: 0}
     - target: {fileID: 8804454085398885005, guid: 2d6ef314e078ca84d8d3bf3f6fff5f0e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1240,7 +1239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8648855783433054543, guid: 62c46ea88349364479f7667dbf15a00c, type: 3}
       propertyPath: m_Name
-      value: SpriteSheet_Map_55
+      value: Esteira_Horizontal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1297,7 +1296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8376865844769588141, guid: 4c990f3de4bab2748a862a7500bbae0a, type: 3}
       propertyPath: m_Name
-      value: SpriteSheet_Map_29
+      value: Carrinho_W_Gobrina
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1361,6 +1360,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61ef28503b2e04640ac345cae3494cd7, type: 3}
+--- !u!1001 &8648822423467172257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4797543915007989427, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_Name
+      value: Joker
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.4635153
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5064962
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113743060100911041, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2754498985ea11d44a39cf4baa1bc714, type: 3}
 --- !u!1001 &8828467205772670650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1371,7 +1427,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 218934872250904834, guid: 3362bd0defe59b3458863690dcf80179, type: 3}
       propertyPath: m_Name
-      value: Sprite_itens_loop_11
+      value: Pizza
       objectReference: {fileID: 0}
     - target: {fileID: 7711145684553282521, guid: 3362bd0defe59b3458863690dcf80179, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1438,3 +1494,4 @@ SceneRoots:
   - {fileID: 8564680153787337243}
   - {fileID: 4552753332307017438}
   - {fileID: 4222591537214883645}
+  - {fileID: 8648822423467172257}
