@@ -7,10 +7,28 @@ public class RandomMovement : EnemyHazard
     [SerializeField] private TurnManager turnManager;
     [SerializeField] private Animator animator;
 
+    private static readonly int JokerDirX = Animator.StringToHash("JokerDirX");
+    private static readonly int JokerDirY = Animator.StringToHash("JokerDirY");
+    private static readonly int IsJokerMoving = Animator.StringToHash("IsJokerMoving");
+
     private bool isTakingTurn;
     private bool hasPendingTurn;
 
-     private void OnEnable()
+    protected override void OnMoveStart(Vector2Int dir)
+    {
+        if (animator == null) return;
+        animator.SetFloat(JokerDirX, dir.x);
+        animator.SetFloat(JokerDirY, dir.y);
+        animator.SetBool(IsJokerMoving, true);
+    }
+
+    protected override void OnMoveEnd()
+    {
+        if (animator == null) return;
+        animator.SetBool(IsJokerMoving, false);
+    }
+
+    private void OnEnable()
     {
         if (player == null)
             player = FindAnyObjectByType<NewPlayerController>();
