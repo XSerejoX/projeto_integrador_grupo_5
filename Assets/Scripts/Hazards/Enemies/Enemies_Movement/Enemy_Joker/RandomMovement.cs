@@ -1,18 +1,25 @@
 using UnityEngine;
 using System.Collections;
 
-public class RandomMovement : EnemyHazard
+public class RandomMovement : EnemyHazard, IEnemyTurn
 {
-    [SerializeField] private NewPlayerController player;
-    [SerializeField] private TurnManager turnManager;
     [SerializeField] private Animator animator;
+
+    [Header("Ordem de turno (menor joga primeiro)")]
+    [SerializeField] private int turnOrder = 2;
+    public int TurnOrder => turnOrder;
 
     private static readonly int JokerDirX = Animator.StringToHash("JokerDirX");
     private static readonly int JokerDirY = Animator.StringToHash("JokerDirY");
     private static readonly int IsJokerMoving = Animator.StringToHash("IsJokerMoving");
 
-    private bool isTakingTurn;
-    private bool hasPendingTurn;
+    private static readonly Vector2Int[] Directions =
+    {
+        Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
+    };
+
+    private void OnEnable() => EnemyTurnManager.Register(this);
+    private void OnDisable() => EnemyTurnManager.Unregister(this);
 
     protected override void OnMoveStart(Vector2Int dir)
     {
@@ -28,62 +35,9 @@ public class RandomMovement : EnemyHazard
         animator.SetBool(IsJokerMoving, false);
     }
 
-    private void OnEnable()
-    {
-        if (player == null)
-            player = FindAnyObjectByType<NewPlayerController>();
-
-        if (turnManager == null)
-            turnManager = FindAnyObjectByType<TurnManager>();
-
-        if (player != null)
-            player.Moved += HandlePlayerMoved;
-    }
-
-    private void OnDisable()
-    {
-        if (player != null)
-            player.Moved -= HandlePlayerMoved;
-    }
-
-    private void HandlePlayerMoved()
-    {
-        hasPendingTurn = true;
-        if (!isTakingTurn)
-            StartCoroutine(ProcessTurns());
-    }
-
-    private IEnumerator ProcessTurns()
-    {
-        isTakingTurn = true;
-
-        while (hasPendingTurn && player != null)
-        {
-            hasPendingTurn = false;
-                //espera a animção do player acabar
-            while (player.IsAnimating) yield return null; 
-            yield return TakeTurn(player);
-        }
-
-        isTakingTurn = false;
-        // devolve o turno pro player, senão o Update dele nunca mais aceita input
-        OnMoveEnd();
-        turnManager.isPlayerTurn = true;
-    }
-
     public IEnumerator TakeTurn(GridEntity player)
     {
-        Vector2Int[] directions = new Vector2Int[]
-        {
-            Vector2Int.up,
-            Vector2Int.down,
-            Vector2Int.left,
-            Vector2Int.right
-        };
-
-        
-        Vector2Int dir = directions[Random.Range(0, directions.Length)];
-        
+        Vector2Int dir = Directions[Random.Range(0, Directions.Length)];
         Vector2Int target = Cell + dir;
 
         if (target == player.Cell) // chegou do lado do player: ataca + knockback
@@ -96,19 +50,17 @@ public class RandomMovement : EnemyHazard
         }
         else
         {
-                if (!TryMove(dir)) // se não conseguir mover
-                     TryMove(-dir); // tenta mover na direção oposta
+            if (!TryMove(dir))  // se não conseguir mover
+                TryMove(-dir);  // tenta a direção oposta
         }
-        
+
         while (IsAnimating || player.IsAnimating) yield return null;
+        OnMoveEnd();
     }
 
     private void TryKnockback(GridEntity player, Vector2Int dir)
     {
-        // Se o player tem espaço atrás, é empurrado e o inimigo ocupa a célula dele.
-        // Se tem parede atrás, nada acontece (o inimigo fica onde está).
         if (player.TryMove(dir))
-            TryMove(dir); // esse dir é a direção do inimigo
+            TryMove(dir);
     }
-
 }
