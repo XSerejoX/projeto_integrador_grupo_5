@@ -2,61 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PerseguidorController : EnemyHazard
+public class PerseguidorController : EnemyHazard, IEnemyTurn
 {
-    [SerializeField] private NewPlayerController player;
-    [SerializeField] private TurnManager turnManager;
     [SerializeField] private Animator animator;
 
-    private bool isTakingTurn;
-    private bool hasPendingTurn;
+    [Header("Ordem de turno (menor joga primeiro)")]
+    [SerializeField] private int turnOrder = 1;
+    public int TurnOrder => turnOrder;
 
     private static readonly int PersDirX = Animator.StringToHash("PersDirX");
     private static readonly int PersDirY = Animator.StringToHash("PersDirY");
     private static readonly int IsPersMoving = Animator.StringToHash("IsPersMoving");
 
-    private void OnEnable()
-    {
-        if (player == null)
-            player = FindAnyObjectByType<NewPlayerController>();
-
-        if (turnManager == null)
-            turnManager = FindAnyObjectByType<TurnManager>();
-
-        if (player != null)
-            player.Moved += HandlePlayerMoved;
-    }
-
-    private void OnDisable()
-    {
-        if (player != null)
-            player.Moved -= HandlePlayerMoved;
-    }
-
-    private void HandlePlayerMoved()
-    {
-        hasPendingTurn = true;
-        if (!isTakingTurn)
-            StartCoroutine(ProcessTurns());
-    }
-
-    private IEnumerator ProcessTurns()
-    {
-        isTakingTurn = true;
-
-        while (hasPendingTurn && player != null)
-        {
-            hasPendingTurn = false;
-                //espera a animção do player acabar
-            while (player.IsAnimating) yield return null; 
-            yield return TakeTurn(player);
-        }
-
-        isTakingTurn = false;
-        // devolve o turno pro player, senão o Update dele nunca mais aceita input
-        OnMoveEnd();
-        turnManager.isPlayerTurn = true;
-    }
+    private void OnEnable() => EnemyTurnManager.Register(this);
+    private void OnDisable() => EnemyTurnManager.Unregister(this);
 
     public IEnumerator TakeTurn(GridEntity player)
     {
@@ -80,18 +39,15 @@ public class PerseguidorController : EnemyHazard
         // se não há caminho, ele simplesmente espera o próximo turno
 
         while (IsAnimating || player.IsAnimating) yield return null;
+        OnMoveEnd();
     }
 
     private void TryKnockback(GridEntity player, Vector2Int dir)
     {
-        // Se o player tem espaço atrás, é empurrado e o perseguidor ocupa a célula dele.
-        // Se tem parede atrás, nada acontece (o perseguidor fica onde está).
         if (player.TryMove(dir))
-            TryMove(dir); // esse dir é a direção do perseguidor
+            TryMove(dir);
     }
 
-    // métodos virtuais que foram sobrescritos
-    // lida com a animação do perseguidor, setando os parâmetros no animator
     protected override void OnMoveStart(Vector2Int dir)
     {
         if (animator == null) return;
@@ -106,29 +62,24 @@ public class PerseguidorController : EnemyHazard
         animator.SetBool(IsPersMoving, false);
     }
 
-    //mecanismo de busca:
-
     private static readonly Vector2Int[] Directions =
     {
         Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
     };
 
     // BFS: devolve a direção do PRIMEIRO passo do menor caminho até o goal.
-    // Retorna false se não existe caminho.
     private bool FindNextStep(Vector2Int goal, out Vector2Int firstStep)
     {
         firstStep = Vector2Int.zero;
         Vector2Int start = Cell;
         if (start == goal) return false;
 
-        var cameFrom = new Dictionary<Vector2Int, Vector2Int>(); // célula -> de onde veio
+        var cameFrom = new Dictionary<Vector2Int, Vector2Int>();
         var queue = new Queue<Vector2Int>();
 
         cameFrom[start] = start;
         queue.Enqueue(start);
 
-        // começa a olhar as direções em ordem aleatória, pra variar entre
-        // caminhos de mesmo tamanho 
         int offset = Random.Range(0, Directions.Length);
 
         while (queue.Count > 0)
@@ -142,7 +93,6 @@ public class PerseguidorController : EnemyHazard
 
                 if (cameFrom.ContainsKey(next)) continue;
 
-                // a célula do player está "ocupada", mas é o destino, então vale
                 bool isGoal = next == goal;
                 if (!isGoal && !GridManager.Instance.IsFree(next)) continue;
 
@@ -151,9 +101,8 @@ public class PerseguidorController : EnemyHazard
             }
         }
 
-        if (!cameFrom.ContainsKey(goal)) return false; // player inalcançável
+        if (!cameFrom.ContainsKey(goal)) return false;
 
-        // volta do goal até o start pra descobrir o primeiro passo
         Vector2Int step = goal;
         while (cameFrom[step] != start)
             step = cameFrom[step];

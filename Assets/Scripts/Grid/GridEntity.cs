@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GridEntity : MonoBehaviour
 {
-    [SerializeField] private float visualSpeed = 3f;
+    [SerializeField] private float visualSpeed = 4f;
     
     public Vector2Int Cell { get; private set; }
     public bool IsAnimating { get; private set; }
