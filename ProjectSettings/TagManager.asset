@@ -9,6 +9,7 @@ TagManager:
   - Audio
   - RawPizza
   - Coin
+  - NaturalHazard
   layers:
   - Default
   - TransparentFX

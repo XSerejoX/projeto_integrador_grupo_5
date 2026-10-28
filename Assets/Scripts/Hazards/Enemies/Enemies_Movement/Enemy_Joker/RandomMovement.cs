@@ -12,7 +12,6 @@ public class RandomMovement : EnemyHazard, IEnemyTurn
     private static readonly int JokerDirX = Animator.StringToHash("JokerDirX");
     private static readonly int JokerDirY = Animator.StringToHash("JokerDirY");
     private static readonly int IsJokerMoving = Animator.StringToHash("IsJokerMoving");
-
     private static readonly Vector2Int[] Directions =
     {
         Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
@@ -46,21 +45,15 @@ public class RandomMovement : EnemyHazard, IEnemyTurn
             if (health != null)
                 health.TakeDamage(dir, this);
 
-            TryKnockback(player, dir);
+            TryMoveWithKnockback(dir);
         }
         else
         {
-            if (!TryMove(dir))  // se não conseguir mover
-                TryMove(-dir);  // tenta a direção oposta
+            if (!TryMoveWithKnockback(dir))
+                TryMoveWithKnockback(-dir);
         }
 
-        while (IsAnimating || player.IsAnimating) yield return null;
+        while (IsAnimating || player.IsAnimating || IsKnockbackAnimating) yield return null;
         OnMoveEnd();
-    }
-
-    private void TryKnockback(GridEntity player, Vector2Int dir)
-    {
-        if (player.TryMove(dir))
-            TryMove(dir);
     }
 }

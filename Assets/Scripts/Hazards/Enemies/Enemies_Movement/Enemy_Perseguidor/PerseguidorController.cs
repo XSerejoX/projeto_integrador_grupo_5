@@ -29,23 +29,17 @@ public class PerseguidorController : EnemyHazard, IEnemyTurn
                 if (health != null)
                     health.TakeDamage(dir, this);
 
-                TryKnockback(player, dir);
+                TryMoveWithKnockback(dir);
             }
             else
             {
-                TryMove(dir);
+                TryMoveWithKnockback(dir);
             }
         }
         // se não há caminho, ele simplesmente espera o próximo turno
 
-        while (IsAnimating || player.IsAnimating) yield return null;
+        while (IsAnimating || player.IsAnimating || IsKnockbackAnimating) yield return null;
         OnMoveEnd();
-    }
-
-    private void TryKnockback(GridEntity player, Vector2Int dir)
-    {
-        if (player.TryMove(dir))
-            TryMove(dir);
     }
 
     protected override void OnMoveStart(Vector2Int dir)
