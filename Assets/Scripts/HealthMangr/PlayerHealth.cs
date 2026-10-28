@@ -22,8 +22,21 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         if (attacker == null) return;
 
-        currentHealth -= damageAmount;
-        AudioManager.Instance.PlaySFX(AudioManager.Instance.gobrinaSofreDano);
+        ApplyDamage(damageAmount, attackDirection);
+    }
+
+    public void TakeDamage(int amount)
+    {
+        ApplyDamage(amount, Vector2Int.zero);
+    }
+
+    private void ApplyDamage(int amount, Vector2Int attackDirection)
+    {
+        if (amount <= 0 || currentHealth <= 0) return;
+
+        currentHealth -= amount;
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.gobrinaSofreDano);
         Debug.Log($"Player tomou dano! Vida atual: {currentHealth}", this);
 
         if (currentHealth <= 0)
@@ -40,8 +53,13 @@ public class PlayerHealth : MonoBehaviour, IDamageable
             animator.SetFloat(DeathY, attackDirection.y);
             animator.SetBool(IsDead, true);
         }
-        AudioManager.Instance.PlaySFX(AudioManager.Instance.death);
-        GameManager.Instance.TriggerGameOver();
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.death);
+
+        if (GameManager.Instance == null)
+            Debug.LogError("GameManager is missing; the game over sequence cannot start.", this);
+        else
+            GameManager.Instance.TriggerGameOver();
     }
 
 }

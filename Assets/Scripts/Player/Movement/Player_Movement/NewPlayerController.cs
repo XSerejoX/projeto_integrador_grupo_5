@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class NewPlayerController : GridEntity
+public class NewPlayerController : PlayerType
 {
     private InputActions inputActions;
     
