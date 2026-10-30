@@ -4,7 +4,7 @@ using UnityEngine;
 public class NewPlayerController : PlayerType
 {
     private InputActions inputActions;
-    
+
     [SerializeField] private Animator animator;
 
     private static readonly int DirX = Animator.StringToHash("DirX");
@@ -14,10 +14,8 @@ public class NewPlayerController : PlayerType
     public TurnManager turnManager;
     public PlayerInventory Inventory;
     public Collectible[] collectibles; 
-
     public event Action Moved;
     
-
     [Header("Dash")]
     [SerializeField] private int dashSteps = 3;      // quantas células o dash percorre
     [SerializeField] private int maxDashCharges = 2; // quantidade de dashes disponíveis
@@ -73,8 +71,26 @@ public class NewPlayerController : PlayerType
         //retorna nada se nao for vez do player ou se tiver animando
         if (!turnManager.isPlayerTurn || IsAnimating) return;
 
+        Vector2Int direction = HandleInput();
+        if (direction == Vector2Int.zero) return;
+
+        bool dashRequested = HandleDash();
+        int steps = dashRequested ? dashSteps : 1;
+        if (!HandleMovement(direction, steps)) return;
+        if (dashRequested)
+        {
+            ConsumeDash();
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.dash);
+        }
+
+        turnManager.EndPlayerTurn();
+    }
+
+
+    private Vector2Int HandleInput()
+    {
         var moveAction = inputActions.Player.Move; //acao move
-        if (!moveAction.WasPressedThisFrame()) return;
+        if (!moveAction.WasPressedThisFrame()) return Vector2Int.zero;
             // lendo o input da action move
         Vector2 input = moveAction.ReadValue<Vector2>(); 
             //caso aperte duas teclas de uma vez, priorize a direção dominante
@@ -82,12 +98,17 @@ public class NewPlayerController : PlayerType
             ? new Vector2Int((int)Mathf.Sign(input.x), 0)
             : new Vector2Int(0, (int)Mathf.Sign(input.y));
 
-        if (direction == Vector2Int.zero) return;
-            //bool de se apertou dash e ainda tiver carga
-        bool dashRequested = inputActions.Player.Dash.IsPressed() && IsDashAvailable();
-            //se dashRequest true, lance dash normal, se false, ande apenas 1
-        int steps = dashRequested ? dashSteps : 1;
+        return direction;
+    }
 
+    private bool HandleDash()
+    {
+        return inputActions.Player.Dash.IsPressed() && IsDashAvailable();
+    }
+
+
+    private bool HandleMovement(Vector2Int direction, int steps)
+    {
         int moved = 0;
         for (int i = 0; i < steps; i++)
         {
@@ -95,18 +116,11 @@ public class NewPlayerController : PlayerType
             moved++; // caso a celula esteja livre, moveu
         }
 
-        if (moved == 0) return; // se a celula ta bloqueada: não gasta turno
+        if (moved == 0) return false; // se a celula ta bloqueada: não gasta turno
 
         Moved?.Invoke(); // dispara Tick() do forno + TryInteract() do forno/bag
-
-        if (dashRequested){ 
-            ConsumeDash();//se usou dash, diminui carga
-            AudioManager.Instance.PlaySFX(AudioManager.Instance.dash);
-        }        
-        turnManager.EndPlayerTurn();
-    
+        return true;
     }
-
     public int DashCharges => dashCharges;
     private bool IsDashAvailable() => dashCharges > 0;
 
