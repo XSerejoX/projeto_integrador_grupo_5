@@ -11,6 +11,7 @@ public class GridManager : MonoBehaviour
 
         //dicionario com: chave = coordenada((x1,y1)) e valor = entity(player, inimigo etc)
     private readonly Dictionary<Vector2Int, GridEntity> occupants = new(); 
+    private readonly Dictionary<Vector2Int, IceTile> iceTiles = new();
 
     void Awake() => Instance = this; //cria uma instacia da grid
 
@@ -39,6 +40,25 @@ public class GridManager : MonoBehaviour
     {
         occupants.Remove(from); //retira a cell (chave)
         occupants[to] = e;      //adiciona uma nova cel a entidade. a entidade moveu.
+    }
+
+    public void RegisterIceTile(IceTile iceTile, Vector2Int cell) =>
+        iceTiles[cell] = iceTile;
+
+    public void UnregisterIceTile(IceTile iceTile, Vector2Int cell)
+    {
+        if (iceTiles.TryGetValue(cell, out IceTile registeredTile) && registeredTile == iceTile)
+        {
+            iceTiles.Remove(cell);
+        }
+    }
+
+    public void NotifyEntityStopped(GridEntity entity)
+    {
+        if (iceTiles.TryGetValue(entity.Cell, out IceTile iceTile))
+        {
+            iceTile.SlideEntity(entity);
+        }
     }
 
         //player spawna na cell (-3,-2) na grid

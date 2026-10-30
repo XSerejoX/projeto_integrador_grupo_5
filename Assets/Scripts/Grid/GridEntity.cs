@@ -4,7 +4,9 @@ using UnityEngine;
 public class GridEntity : MonoBehaviour
 {
     [SerializeField] private float visualSpeed = 4f;
-    
+
+    public Vector2Int LastMoveDirection { get; private set; }
+
     public Vector2Int Cell { get; private set; }
     public bool IsAnimating { get; private set; }
 
@@ -19,27 +21,28 @@ public class GridEntity : MonoBehaviour
     }
 
     // Move só se estiver livre. A lógica muda hora. A animação vem depois.
-    public bool TryMove(Vector2Int dir)
+    public bool TryMove(Vector2Int dir, bool playMoveAnimation = true)
     {
         Vector2Int target = Cell + dir;
         if (!GridManager.Instance.IsFree(target)) return false; //se a cell tiver cheia, false
 
+        LastMoveDirection = dir;
         GridManager.Instance.Move(this, Cell, target); //movendo a entity
         Cell = target; //resetando a cell
-        SlideToCurrentCell(dir);//deslocamento visual
+        SlideToCurrentCell(dir, playMoveAnimation);//deslocamento visual
         return true;
     }
 
-    private void SlideToCurrentCell(Vector2Int dir)
+    private void SlideToCurrentCell(Vector2Int dir, bool playMoveAnimation)
     {
         if (anim != null) StopCoroutine(anim);
-        anim = StartCoroutine(Slide(dir));
+        anim = StartCoroutine(Slide(dir, playMoveAnimation));
     }
 
-    private IEnumerator Slide(Vector2Int dir)
+    private IEnumerator Slide(Vector2Int dir, bool playMoveAnimation)
     {
         IsAnimating = true;
-        OnMoveStart(dir);
+        if (playMoveAnimation) OnMoveStart(dir);
         
         Vector3 target = GridManager.Instance.CellToWorld(Cell);
 
@@ -53,9 +56,11 @@ public class GridEntity : MonoBehaviour
 
         transform.position = target; //resetando posicao
         IsAnimating = false;
+        anim = null;
 
-        OnMoveEnd();
-    
+        if (playMoveAnimation) OnMoveEnd();
+
+        GridManager.Instance.NotifyEntityStopped(this);
     }
         //metodos virtuais para serem sobrescritos
         //para individualizar o que acontece no inicio e fim do movimento
