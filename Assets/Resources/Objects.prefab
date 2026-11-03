@@ -1891,7 +1891,6 @@ MonoBehaviour:
   animator: {fileID: 5688439699064973490}
   turnManager: {fileID: 145948959199936916}
   Inventory: {fileID: 2470869572170207935}
-  collectibles: []
   dashSteps: 3
   maxDashCharges: 2
 --- !u!95 &5688439699064973490

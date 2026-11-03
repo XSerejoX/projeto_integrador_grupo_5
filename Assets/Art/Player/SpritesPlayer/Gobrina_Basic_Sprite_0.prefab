@@ -169,9 +169,6 @@ MonoBehaviour:
   visualSpeed: 6
   turnManager: {fileID: 2220027261831394353}
   Inventory: {fileID: 4698286134046912139}
-  collectibles:
-  - {fileID: 0}
-  - {fileID: 0}
   dashSteps: 2
   maxDashCharges: 2
 --- !u!114 &2495902981200450213

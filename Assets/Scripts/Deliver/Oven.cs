@@ -70,7 +70,7 @@ public class Oven : GridEntity
             {
                 current = State.Baking; //põe forno pra assar
                 turnsRemaining = bakeDuration; //setta o periodo de assamento
-                Debug.Log("[Audio] startForno tocando AGORA");
+                Debug.Log($"[Delivery] Forno em {Cell} começou a assar. Pizzas cruas restantes: {player.Inventory.RawPizzaCount}");
                 
                 animator.SetBool(IsBaking, true);
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.startForno);

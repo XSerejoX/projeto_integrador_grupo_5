@@ -45,15 +45,15 @@ public class RandomMovement : EnemyHazard, IEnemyTurn
             if (health != null)
                 health.TakeDamage(dir, this);
 
-            TryMoveWithKnockback(dir);
+            TryMove(dir);
         }
         else
         {
-            if (!TryMoveWithKnockback(dir))
-                TryMoveWithKnockback(-dir);
+            if (!TryMove(dir))
+                TryMove(-dir);
         }
 
-        while (IsAnimating || player.IsAnimating || IsKnockbackAnimating) yield return null;
+        while (IsAnimating || player.IsAnimating) yield return null;
         OnMoveEnd();
     }
 }

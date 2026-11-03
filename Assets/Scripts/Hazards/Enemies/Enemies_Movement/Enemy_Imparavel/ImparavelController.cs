@@ -48,7 +48,7 @@ public class ImparavelController : EnemyHazard, IEnemyTurn
             dir = -dir;
 
         yield return Charge(player, dir);
-        while (IsAnimating || player.IsAnimating || IsKnockbackAnimating) yield return null;
+        while (IsAnimating || player.IsAnimating) yield return null;
     }
 
     private bool CanCharge(GridEntity player, Vector2Int dir)
@@ -85,8 +85,8 @@ public class ImparavelController : EnemyHazard, IEnemyTurn
                 break;
             }
 
-            if (!TryMoveWithKnockback(dir)) break;
-            while (IsAnimating || IsKnockbackAnimating) yield return null;
+            if (!TryMove(dir)) break;
+            while (IsAnimating) yield return null;
         }
     }
 
@@ -137,7 +137,7 @@ private static readonly Vector2Int[] AdjacentOffsets =
             GameObject fire = Instantiate(firePrefab, worldPosition, Quaternion.identity);
             foreach (GridEntity entity in fire.GetComponentsInChildren<GridEntity>(true))
                 entity.enabled = false;
-            Destroy(fire, 1.5f);
+            Destroy(fire, 0.5f);
 
         }
     }
