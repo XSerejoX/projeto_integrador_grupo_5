@@ -3,6 +3,7 @@ using UnityEngine;
 public class IceTile : MonoBehaviour
 {
     private Vector2Int cell;
+    [SerializeField, Min(1)] private int slideDistance = 2;
 
     private void Start()
     {
@@ -29,6 +30,27 @@ public class IceTile : MonoBehaviour
     public void SlideEntity(GridEntity entity)
     {
         if (entity == null || entity.LastMoveDirection == Vector2Int.zero) return;
-        entity.TryMove(entity.LastMoveDirection, playMoveAnimation: false);
+
+        for (int step = 0; step < slideDistance; step++)
+        {
+            if (entity is EnemyHazard attacker)
+            {
+                Vector2Int nextCell = entity.Cell + entity.LastMoveDirection;
+                GridEntity occupant = GridManager.Instance.GetAt(nextCell);
+                if (occupant is PlayerType player)
+                {
+                    PlayerHealth health = player.GetComponent<PlayerHealth>();
+                    if (health == null)
+                        Debug.LogError("PlayerHealth is missing.", player);
+                    else
+                        health.TakeDamage(entity.LastMoveDirection, attacker);
+
+                    break;
+                }
+            }
+
+            if (!entity.TryMove(entity.LastMoveDirection, playMoveAnimation: false))
+                break;
+        }
     }
 }

@@ -29,16 +29,16 @@ public class PerseguidorController : EnemyHazard, IEnemyTurn
                 if (health != null)
                     health.TakeDamage(dir, this);
 
-                TryMoveWithKnockback(dir);
+                TryMove(dir);
             }
             else
             {
-                TryMoveWithKnockback(dir);
+                TryMove(dir);
             }
         }
         // se não há caminho, ele simplesmente espera o próximo turno
 
-        while (IsAnimating || player.IsAnimating || IsKnockbackAnimating) yield return null;
+        while (IsAnimating || player.IsAnimating) yield return null;
         OnMoveEnd();
     }
 

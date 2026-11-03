@@ -13,7 +13,6 @@ public class NewPlayerController : PlayerType
 
     public TurnManager turnManager;
     public PlayerInventory Inventory;
-    public Collectible[] collectibles; 
     public event Action Moved;
     
     [Header("Dash")]
@@ -41,7 +40,6 @@ public class NewPlayerController : PlayerType
     {
         base.Start();
         dashCharges = maxDashCharges;
-        DeliveryManager.Instance?.SetPizzaCollectionGoal(collectibles);
     }
 
     private void Awake()
