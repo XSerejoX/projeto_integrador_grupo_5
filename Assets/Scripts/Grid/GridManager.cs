@@ -12,6 +12,7 @@ public class GridManager : MonoBehaviour
         //dicionario com: chave = coordenada((x1,y1)) e valor = entity(player, inimigo etc)
     private readonly Dictionary<Vector2Int, GridEntity> occupants = new(); 
     private readonly Dictionary<Vector2Int, IceTile> iceTiles = new();
+    private readonly Dictionary<Vector2Int, MineTile> mineTiles = new();
 
     void Awake() => Instance = this; //cria uma instacia da grid
 
@@ -53,6 +54,25 @@ public class GridManager : MonoBehaviour
         }
     }
 
+    public void RegisterMineTile(MineTile mineTile, Vector2Int cell) =>
+        mineTiles[cell] = mineTile;
+
+    public void UnregisterMineTile(MineTile mineTile, Vector2Int cell)
+    {
+        if (mineTiles.TryGetValue(cell, out MineTile registeredTile) && registeredTile == mineTile)
+        {
+            mineTiles.Remove(cell);
+        }
+    }
+        //ativa o mine tile
+    public void NotifyEntityEntered(GridEntity entity)
+    {
+        if (entity != null && mineTiles.TryGetValue(entity.Cell, out MineTile mineTile))
+        {
+            mineTile.OnEntityEntered(entity);
+        }
+    }
+        //ativa o ice tile
     public void NotifyEntityStopped(GridEntity entity)
     {
         if (iceTiles.TryGetValue(entity.Cell, out IceTile iceTile))
