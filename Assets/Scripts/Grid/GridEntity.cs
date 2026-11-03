@@ -29,6 +29,7 @@ public class GridEntity : MonoBehaviour
         LastMoveDirection = dir;
         GridManager.Instance.Move(this, Cell, target); //movendo a entity
         Cell = target; //resetando a cell
+        GridManager.Instance.NotifyEntityEntered(this);
         SlideToCurrentCell(dir, playMoveAnimation);//deslocamento visual
         return true;
     }
