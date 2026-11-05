@@ -8,11 +8,20 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneDemo.unity
     guid: ebfcd32ca32d7c041a25df131d50d6df
   - enabled: 0
     path: Assets/sceneCopy.unity
     guid: 145e06cf2e40c0948b3b7f59694b99e5
+  - enabled: 1
+    path: Assets/Scenes/Fase1.unity
+    guid: 6f4ab0aae58f13143a16fb80ef34313f
+  - enabled: 1
+    path: Assets/Scenes/Fase2.unity
+    guid: 567889cee3cf0364b8ffd5ccbf0628a1
+  - enabled: 1
+    path: Assets/Scenes/Fase3.unity
+    guid: c8b182c09f4ac26468621b381c058370
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2165623f19017b94592a69eb2842a60e, type: 3}
