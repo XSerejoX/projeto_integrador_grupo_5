@@ -9,11 +9,18 @@ public class Oven : GridEntity
     [SerializeField] private int bakeDuration = 5; // turnos totais pra assar
     [SerializeField] private NewPlayerController player;
     [SerializeField] private Animator animator;
+    [SerializeField] private OvenTurnsDisplay turnsDisplay; // texto do Canvas com os turnos restantes
         private static readonly int IsBaking = Animator.StringToHash("IsBaking");
 
 
     private State current = State.Idle;
     private int turnsRemaining; // turnos que faltam pra assar
+
+    protected override void Start()
+    {
+        base.Start();
+        UpdateDisplay(); // começa escondido (forno ocioso)
+    }
 
     private void OnEnable()
     {
@@ -45,9 +52,6 @@ public class Oven : GridEntity
         turnsRemaining--; 
         Debug.Log($"[Delivery] Forno em {Cell} assando... faltam {turnsRemaining} movimentos.");
 
-        
-
-
         if (turnsRemaining <= 0) //quando termina o periodo o forno fica pronto
         {
             Debug.Log($"[Delivery] Forno em {Cell}: pizza PRONTA! Pode retirar.");
@@ -55,6 +59,8 @@ public class Oven : GridEntity
             animator.SetBool(IsBaking, false);
             AudioManager.Instance.PlaySFX(AudioManager.Instance.pizzaPronta);
         }
+
+        UpdateDisplay();
     }
 
     // Chamado automaticamente toda vez que o player termina de mover
@@ -74,6 +80,7 @@ public class Oven : GridEntity
                 
                 animator.SetBool(IsBaking, true);
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.startForno);
+                UpdateDisplay();
             }
         }
         else if (current == State.Ready) //caso teja perto e o forno teja pronto:
@@ -83,7 +90,15 @@ public class Oven : GridEntity
             
             Debug.Log($"[Delivery] Pizza assada retirada do forno em {Cell}. Total assado no inventário: {player.Inventory.BakedPizzaCount}");
             current = State.Idle; //volta pra ocioso/idle
+            UpdateDisplay();
         }
+    }
+
+    // Mostra os turnos restantes só enquanto está assando; senão manda 0 (o display se esconde)
+    private void UpdateDisplay()
+    {
+        if (turnsDisplay == null) return;
+        turnsDisplay.SetTurns(current == State.Baking ? turnsRemaining : 0);
     }
 
     private bool IsAdjacent(Vector2Int otherCell)

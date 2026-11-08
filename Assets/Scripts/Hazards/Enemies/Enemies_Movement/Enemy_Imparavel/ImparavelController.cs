@@ -1,6 +1,7 @@
 using System;
 
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ImparavelController : EnemyHazard, IEnemyTurn
@@ -40,16 +41,45 @@ public class ImparavelController : EnemyHazard, IEnemyTurn
         EnemyTurnManager.Unregister(this);
     }
 
-    public IEnumerator TakeTurn(GridEntity player)
+    // Simula a investida sem mexer no grid: sorteia a direção e
+    // anda até tilesToMove células, parando no player, em parede ou em outro inimigo.
+    // (gelo/mina ainda não entram na simulação)
+    public EnemyPlan PlanTurn(GridEntity player)
     {
-        Vector2Int dir = Directions[UnityEngine.Random.Range(0, Directions.Length)];
+        var plan = new EnemyPlan { Path = new List<Vector2Int>() };
 
+        Vector2Int dir = Directions[UnityEngine.Random.Range(0, Directions.Length)];
         if (!CanCharge(player, dir) && CanCharge(player, -dir))
             dir = -dir;
 
-        yield return Charge(player, dir);
-        while (IsAnimating || player.IsAnimating) yield return null;
+        Vector2Int cur = Cell;
+        for (int i = 0; i < tilesToMove; i++)
+        {
+            Vector2Int next = cur + dir;
+
+            if (next == player.Cell)
+            {
+                plan.Path.Add(next);
+                plan.HitsPlayer = true;
+                break;
+            }
+
+            if (!GridManager.Instance.IsFree(next))
+            {
+                // parede/limite do mapa bate e faz fogo; outro inimigo só bloqueia
+                plan.HitsWall = GridManager.Instance.GetAt(next) is not EnemyHazard;
+                break;
+            }
+
+            plan.Path.Add(next);
+            cur = next;
+        }
+
+        return plan;
     }
+
+    public IEnumerator ExecuteTurn(GridEntity player, EnemyPlan plan) =>
+        FollowPlan(player, plan);
 
     private bool CanCharge(GridEntity player, Vector2Int dir)
     {
@@ -60,35 +90,7 @@ public class ImparavelController : EnemyHazard, IEnemyTurn
             : receptor == player || GridManager.Instance.IsFree(nextCell + dir);
     }
 
-    private IEnumerator Charge(GridEntity player, Vector2Int dir)
-    {
-        for (int i = 0; i < tilesToMove; i++)
-        {
-            Vector2Int target = Cell + dir;
-            GridEntity targetEntity = GridManager.Instance.GetAt(target);
-
-            if (targetEntity is PlayerType)
-            {
-                PlayerHealth health = targetEntity.GetComponent<PlayerHealth>();
-                if (health == null)
-                    Debug.LogError("missing", targetEntity);
-                else
-                    health.TakeDamage(dir, this);
-
-                break;
-            }
-
-            if (!GridManager.Instance.IsFree(target) &&
-                targetEntity is not EnemyHazard)
-            {
-                HitWall?.Invoke();
-                break;
-            }
-
-            if (!TryMove(dir)) break;
-            while (IsAnimating) yield return null;
-        }
-    }
+    protected override void OnHitWall() => HitWall?.Invoke();
 
     protected override void OnMoveStart(Vector2Int dir)
     {
@@ -104,12 +106,12 @@ public class ImparavelController : EnemyHazard, IEnemyTurn
         animator.SetBool(IsImpMoving, false);
     }
 
-private static readonly Vector2Int[] AdjacentOffsets =
-{
-    new(-1, -1), new(0, -1), new(1, -1),
-    new(-1,  0),             new(1,  0),
-    new(-1,  1), new(0,  1), new(1,  1)
-};
+    private static readonly Vector2Int[] AdjacentOffsets =
+    {
+        new(-1, -1), new(0, -1), new(1, -1),
+        new(-1,  0),             new(1,  0),
+        new(-1,  1), new(0,  1), new(1,  1)
+    };
 
     private void SpawnFiresAroundImparavel()
     {
@@ -138,8 +140,6 @@ private static readonly Vector2Int[] AdjacentOffsets =
             foreach (GridEntity entity in fire.GetComponentsInChildren<GridEntity>(true))
                 entity.enabled = false;
             Destroy(fire, 0.5f);
-
         }
     }
-
 }

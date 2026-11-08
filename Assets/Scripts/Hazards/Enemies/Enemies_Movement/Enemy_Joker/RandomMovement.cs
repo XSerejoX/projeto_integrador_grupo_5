@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class RandomMovement : EnemyHazard, IEnemyTurn
 {
@@ -34,26 +35,24 @@ public class RandomMovement : EnemyHazard, IEnemyTurn
         animator.SetBool(IsJokerMoving, false);
     }
 
-    public IEnumerator TakeTurn(GridEntity player)
+    // Sorteia a direção agora (a prévia e a execução usam a mesma decisão).
+    public EnemyPlan PlanTurn(GridEntity player)
     {
+        var plan = new EnemyPlan { Path = new List<Vector2Int>() };
         Vector2Int dir = Directions[Random.Range(0, Directions.Length)];
-        Vector2Int target = Cell + dir;
 
-        if (target == player.Cell) // chegou do lado do player: ataca + knockback
-        {
-            PlayerHealth health = player.GetComponent<PlayerHealth>();
-            if (health != null)
-                health.TakeDamage(dir, this);
+        if (Cell + dir == player.Cell || GridManager.Instance.IsFree(Cell + dir))
+            plan.Path.Add(Cell + dir);
+        else if (GridManager.Instance.IsFree(Cell - dir))
+            plan.Path.Add(Cell - dir);
 
-            TryMove(dir);
-        }
-        else
-        {
-            if (!TryMove(dir))
-                TryMove(-dir);
-        }
+        plan.HitsPlayer = plan.Path.Count > 0 && plan.Path[0] == player.Cell;
+        return plan;
+    }
 
-        while (IsAnimating || player.IsAnimating) yield return null;
+    public IEnumerator ExecuteTurn(GridEntity player, EnemyPlan plan)
+    {
+        yield return FollowPlan(player, plan);
         OnMoveEnd();
     }
 }

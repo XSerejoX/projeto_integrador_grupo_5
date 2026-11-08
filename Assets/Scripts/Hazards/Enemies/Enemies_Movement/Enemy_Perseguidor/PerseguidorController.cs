@@ -17,28 +17,25 @@ public class PerseguidorController : EnemyHazard, IEnemyTurn
     private void OnEnable() => EnemyTurnManager.Register(this);
     private void OnDisable() => EnemyTurnManager.Unregister(this);
 
-    public IEnumerator TakeTurn(GridEntity player)
+    // Só lógica: decide o próximo passo sem mexer no grid.
+    // Se não há caminho, o plano fica vazio e ele espera o próximo turno.
+    public EnemyPlan PlanTurn(GridEntity player)
     {
+        var plan = new EnemyPlan { Path = new List<Vector2Int>() };
+
         if (FindNextStep(player.Cell, out Vector2Int dir))
         {
             Vector2Int target = Cell + dir;
-
-            if (target == player.Cell) // chegou do lado do player: ataca + knockback
-            {
-                PlayerHealth health = player.GetComponent<PlayerHealth>();
-                if (health != null)
-                    health.TakeDamage(dir, this);
-
-                TryMove(dir);
-            }
-            else
-            {
-                TryMove(dir);
-            }
+            plan.Path.Add(target);
+            plan.HitsPlayer = target == player.Cell;
         }
-        // se não há caminho, ele simplesmente espera o próximo turno
 
-        while (IsAnimating || player.IsAnimating) yield return null;
+        return plan;
+    }
+
+    public IEnumerator ExecuteTurn(GridEntity player, EnemyPlan plan)
+    {
+        yield return FollowPlan(player, plan);
         OnMoveEnd();
     }
 

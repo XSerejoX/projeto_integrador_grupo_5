@@ -2,11 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Resultado do planejamento de um inimigo. Calculado sem mexer no grid.
+public struct EnemyPlan
+{
+    public List<Vector2Int> Path;   // células que ele vai pisar (sem a origem)
+    public bool HitsPlayer;         // a última célula é o player?
+    public bool HitsWall;           // só o Imparável usa
+}
+
 // Todo inimigo que joga no turno dos inimigos implementa isso.
 public interface IEnemyTurn
 {
-    int TurnOrder { get; }                          // menor = joga primeiro
-    IEnumerator TakeTurn(GridEntity player);
+    int TurnOrder { get; }                                   // menor = joga primeiro
+    EnemyPlan PlanTurn(GridEntity player);                   // puro: só lê o grid
+    IEnumerator ExecuteTurn(GridEntity player, EnemyPlan plan); // segue o plano
 }
 
 
@@ -70,8 +79,24 @@ public class EnemyTurnManager : MonoBehaviour
                 var mb = enemy as MonoBehaviour;
                 if (mb == null || !mb.isActiveAndEnabled) continue;
 
+                // 1) planeja (o grid já reflete os inimigos anteriores)
+                EnemyPlan plan = enemy.PlanTurn(player);
+
+                // 2) mostra o caminho piscando; o tempo vem do próprio PathPreview
+                bool hasPath = plan.Path != null && plan.Path.Count > 0;
+                if (hasPath && PathPreview.Instance != null)
+                {
+                    PathPreview.Instance.Show(plan.Path);
+                    yield return new WaitForSeconds(PathPreview.Instance.Duration);
+                    PathPreview.Instance.Hide();
+                }
+
+                // game over durante a prévia: não executa o turno
+                if (GameManager.Instance != null && GameManager.Instance.IsGameOver) break;
+
+                // 3) executa seguindo o plano
                 // um inimigo só começa quando o anterior terminou totalmente
-                yield return enemy.TakeTurn(player);
+                yield return enemy.ExecuteTurn(player, plan);
 
                 var entity = enemy as GridEntity;
                 while ((entity != null && entity.IsAnimating) || player.IsAnimating)

@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private float dramaticDelay = 3f;
 
+    [Header("Progressão de fases")]
+    [Tooltip("Cena carregada após vencer a última fase do Build Settings (0 = primeira cena, ex.: menu)")]
+    [SerializeField] private int sceneAfterLastLevel = 0;
+
     private bool endSequenceStarted;
 
     void Awake()
@@ -49,12 +53,32 @@ public class GameManager : MonoBehaviour
         EndState = result;
         yield return new WaitForSeconds(dramaticDelay);
 
-        Restart(); 
+        // derrota: refaz a fase. vitória: vai para a próxima.
+        if (result == GameEndState.Victory)
+            LoadNextLevel();
+        else
+            Restart();
     }
 
     public void Restart()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // Carrega a próxima cena do Build Settings
+    // Se era a última, volta para sceneAfterLastLevel.
+    public void LoadNextLevel()
+    {
+        Time.timeScale = 1f;
+
+        int next = SceneManager.GetActiveScene().buildIndex + 1;
+        if (next >= SceneManager.sceneCountInBuildSettings)
+        {
+            Debug.Log("[Game] Última fase concluída.");
+            next = sceneAfterLastLevel;
+        }
+
+        SceneManager.LoadScene(next);
     }
 }
