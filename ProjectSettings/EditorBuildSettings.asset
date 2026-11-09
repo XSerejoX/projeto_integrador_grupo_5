@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/sceneCopy.unity
     guid: 145e06cf2e40c0948b3b7f59694b99e5
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2d62f18f022031143b80a6c745d52e4e
+  - enabled: 1
     path: Assets/Scenes/Fase1.unity
     guid: 6f4ab0aae58f13143a16fb80ef34313f
   - enabled: 1
