@@ -1,23 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public Button botaoSair;
-
-    void Start()
+    public void SairFase()
     {
-        botaoSair.onClick.AddListener(SairDoJogo);
-    }
-
-    public void SairDoJogo()
-    {
-        Debug.Log("Saindo do jogo...");
-
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        SceneManager.LoadSceneAsync(0);
     }
 }

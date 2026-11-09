@@ -4575,6 +4575,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4700,6 +4701,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482d8cfc23101c145b78c58fb30c26b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuController
 --- !u!1 &538189136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8017752260156057899, guid: 17baba32d897c7c4d8603aa5f10fe2c2, type: 3}
@@ -5434,7 +5447,6 @@ GameObject:
   - component: {fileID: 823746648}
   - component: {fileID: 823746647}
   - component: {fileID: 823746646}
-  - component: {fileID: 823746645}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -5463,19 +5475,6 @@ RectTransform:
   m_AnchoredPosition: {x: 324.4, y: 222.5}
   m_SizeDelta: {x: 47.63, y: 29.94}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &823746645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823746643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 482d8cfc23101c145b78c58fb30c26b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuController
-  botaoSair: {fileID: 823746646}
 --- !u!114 &823746646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5519,7 +5518,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 823746647}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420033}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: SairFase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &823746647
 MonoBehaviour:
   m_ObjectHideFlags: 0
