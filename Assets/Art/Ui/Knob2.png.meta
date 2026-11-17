@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 387b38e26470cad42b6b9c42201f8c6c
+guid: 13fec7cb7aca4b54dae23f9366f6459e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8389670946475175988
-    second: Pizza_Button_0
+      213: -249231894816241014
+    second: Knob2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -77,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pizza_Button_0
+      name: Knob2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4096
-        height: 2160
+        x: 159
+        y: 909
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccf8eec79b6e19b80800000000000000
-      internalID: -8389670946475175988
+      spriteID: a8ac7c289ec8a8cf0800000000000000
+      internalID: -249231894816241014
       vertices: []
       indices: 
       edges: []
@@ -137,7 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pizza_Button_0: -8389670946475175988
+      Knob2_0: -249231894816241014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

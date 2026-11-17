@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: efad805c6fa434e46a3fd27c14656364
+guid: a36e8adabb765d14c9b85cd393f4bc9a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8369568246938052515
-    second: Button_Menu_Sprite2_0
+      213: -4305334804802129178
+    second: Button_Exit_Sprite2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -77,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_Menu_Sprite2_0
+      name: Button_Exit_Sprite2_0
       rect:
         serializedVersion: 2
-        x: 629
-        y: 399
+        x: 539
+        y: 189
         width: 352
-        height: 222
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d585ed5f50259db80800000000000000
-      internalID: -8369568246938052515
+      spriteID: 6e2b4a04ec06044c0800000000000000
+      internalID: -4305334804802129178
       vertices: []
       indices: 
       edges: []
@@ -137,7 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Button_Menu_Sprite2_0: -8369568246938052515
+      Button_Exit_Sprite2_0: -4305334804802129178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
