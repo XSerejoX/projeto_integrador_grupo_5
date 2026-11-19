@@ -3,18 +3,15 @@ using UnityEngine.EventSystems;
 
 public class StarManager : MonoBehaviour
 {
-    public GameObject starReader;
+    [SerializeField] private GameObject starReader;
 
-    void OnMouseOver()
+    private void OnMouseEnter()
     {
-       
-      starReader.SetActive(true);
-        
+        starReader.GetComponent<ShowAndHide>().showObject();
     }
 
-    void OnMouseExit()
+    private void OnMouseExit()
     {
-            starReader.SetActive(false);
+        starReader.GetComponent<ShowAndHide>().hideObject();
     }
-
 }

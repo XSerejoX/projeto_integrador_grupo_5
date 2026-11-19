@@ -12,11 +12,11 @@ public class LevelLoader : MonoBehaviour
 
     public void OpenLevel(int levelId)
     {
-        string levelName = "Fase" + levelId;
+        int levelName = levelId;
         StartCoroutine(LoadLevel(levelName));
     }
   
-    IEnumerator LoadLevel(string levelIndex)
+    IEnumerator LoadLevel(int levelIndex)
     {
         transition.SetTrigger("Start");
 
