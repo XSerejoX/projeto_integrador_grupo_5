@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: e8ddc3b47ed912d4884dc003106b1af9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3600573865667984147
+    second: Logo_Separado_esp-export1_0
+  - first:
+      213: -1117817426532578156
+    second: Logo_Separado_esp-export1_1
+  - first:
+      213: 483729303141250387
+    second: Logo_Separado_esp-export1_2
+  - first:
+      213: 2264690914895425615
+    second: Logo_Separado_esp-export1_3
+  - first:
+      213: -4486337065624400785
+    second: Logo_Separado_esp-export1_4
+  - first:
+      213: 6054435403607254119
+    second: Logo_Separado_esp-export1_5
+  - first:
+      213: -6650019883222724467
+    second: Logo_Separado_esp-export1_6
+  - first:
+      213: -5133135986132323051
+    second: Logo_Separado_esp-export1_7
+  - first:
+      213: -4664518696217213453
+    second: Logo_Separado_esp-export1_8
+  - first:
+      213: 6506018997566302797
+    second: Logo_Separado_esp-export1_9
+  - first:
+      213: 7564500676424540158
+    second: Logo_Separado_esp-export1_10
+  - first:
+      213: -3667197806951481446
+    second: Logo_Separado_esp-export1_11
+  - first:
+      213: -2946937224474114319
+    second: Logo_Separado_esp-export1_12
+  - first:
+      213: 2805231710068293096
+    second: Logo_Separado_esp-export1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_Separado_esp-export1_0
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 665
+        width: 1474
+        height: 935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de40e455521380ec0800000000000000
+      internalID: -3600573865667984147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Separado_esp-export1_13
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 49
+        width: 832
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed3847a06f2ee620800000000000000
+      internalID: 2805231710068293096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 103c1af9bc9d72048a536a7b0a47aee3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_Separado_esp-export1_0: -3600573865667984147
+      Logo_Separado_esp-export1_1: -1117817426532578156
+      Logo_Separado_esp-export1_10: 7564500676424540158
+      Logo_Separado_esp-export1_11: -3667197806951481446
+      Logo_Separado_esp-export1_12: -2946937224474114319
+      Logo_Separado_esp-export1_13: 2805231710068293096
+      Logo_Separado_esp-export1_2: 483729303141250387
+      Logo_Separado_esp-export1_3: 2264690914895425615
+      Logo_Separado_esp-export1_4: -4486337065624400785
+      Logo_Separado_esp-export1_5: 6054435403607254119
+      Logo_Separado_esp-export1_6: -6650019883222724467
+      Logo_Separado_esp-export1_7: -5133135986132323051
+      Logo_Separado_esp-export1_8: -4664518696217213453
+      Logo_Separado_esp-export1_9: 6506018997566302797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

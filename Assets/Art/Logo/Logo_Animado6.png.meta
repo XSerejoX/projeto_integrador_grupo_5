@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 5246f9e47f568bf4d9e803ce8e494f08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -577322393547752921
+    second: Logo_Animado6_0
+  - first:
+      213: -6129933113369616788
+    second: Logo_Animado6_1
+  - first:
+      213: -4315235329854064463
+    second: Logo_Animado6_2
+  - first:
+      213: 3384192282198617110
+    second: Logo_Animado6_3
+  - first:
+      213: 4008484198555300691
+    second: Logo_Animado6_4
+  - first:
+      213: -9125223932530582503
+    second: Logo_Animado6_5
+  - first:
+      213: -6334261440205439681
+    second: Logo_Animado6_6
+  - first:
+      213: 7156243782556533635
+    second: Logo_Animado6_7
+  - first:
+      213: 6803023912696019573
+    second: Logo_Animado6_8
+  - first:
+      213: 8311268891446954367
+    second: Logo_Animado6_9
+  - first:
+      213: 1635978986806374601
+    second: Logo_Animado6_10
+  - first:
+      213: 8104423766453450684
+    second: Logo_Animado6_11
+  - first:
+      213: 4417242822587662721
+    second: Logo_Animado6_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_Animado6_0
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 665
+        width: 1474
+        height: 935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a35b38750fcf7f0800000000000000
+      internalID: -577322393547752921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f645ee5a9f157884597884611ff5d431
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_Animado6_0: -577322393547752921
+      Logo_Animado6_1: -6129933113369616788
+      Logo_Animado6_10: 1635978986806374601
+      Logo_Animado6_11: 8104423766453450684
+      Logo_Animado6_12: 4417242822587662721
+      Logo_Animado6_2: -4315235329854064463
+      Logo_Animado6_3: 3384192282198617110
+      Logo_Animado6_4: 4008484198555300691
+      Logo_Animado6_5: -9125223932530582503
+      Logo_Animado6_6: -6334261440205439681
+      Logo_Animado6_7: 7156243782556533635
+      Logo_Animado6_8: 6803023912696019573
+      Logo_Animado6_9: 8311268891446954367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

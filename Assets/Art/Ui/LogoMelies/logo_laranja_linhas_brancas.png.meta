@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 4f925ad1f5865f1429b3b1e8d677b84f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -821254195195626606
+    second: logo_laranja_linhas_brancas_0
+  - first:
+      213: 6469578093136660495
+    second: logo_laranja_linhas_brancas_1
+  - first:
+      213: 2423059720175982278
+    second: logo_laranja_linhas_brancas_2
+  - first:
+      213: 568122638222992333
+    second: logo_laranja_linhas_brancas_3
+  - first:
+      213: -4421107388454859814
+    second: logo_laranja_linhas_brancas_4
+  - first:
+      213: -6357098687683405808
+    second: logo_laranja_linhas_brancas_5
+  - first:
+      213: 4949178146904720649
+    second: logo_laranja_linhas_brancas_6
+  - first:
+      213: -3436782535282681413
+    second: logo_laranja_linhas_brancas_7
+  - first:
+      213: 5636343486394752142
+    second: logo_laranja_linhas_brancas_8
+  - first:
+      213: -2589093223372418636
+    second: logo_laranja_linhas_brancas_9
+  - first:
+      213: 7683801131446646410
+    second: logo_laranja_linhas_brancas_10
+  - first:
+      213: -6915065643563884927
+    second: logo_laranja_linhas_brancas_11
+  - first:
+      213: 7998405560983125250
+    second: logo_laranja_linhas_brancas_12
+  - first:
+      213: -6738778920966142070
+    second: logo_laranja_linhas_brancas_13
+  - first:
+      213: -97196999733178723
+    second: logo_laranja_linhas_brancas_14
+  - first:
+      213: -941663960390460673
+    second: logo_laranja_linhas_brancas_15
+  - first:
+      213: 4941543067969583944
+    second: logo_laranja_linhas_brancas_16
+  - first:
+      213: 7743084407233519003
+    second: logo_laranja_linhas_brancas_17
+  - first:
+      213: -5892974279544940887
+    second: logo_laranja_linhas_brancas_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logo_laranja_linhas_brancas_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 225
+        width: 7773
+        height: 3732
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bb01129a15a94f0800000000000000
+      internalID: -821254195195626606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_laranja_linhas_brancas_5
+      rect:
+        serializedVersion: 2
+        x: 5694
+        y: 2718
+        width: 79
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0185786cc6c07c7a0800000000000000
+      internalID: -6357098687683405808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_laranja_linhas_brancas_12
+      rect:
+        serializedVersion: 2
+        x: 5705
+        y: 1503
+        width: 265
+        height: 950
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d78e7fa7b000f60800000000000000
+      internalID: 7998405560983125250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo_laranja_linhas_brancas_16
+      rect:
+        serializedVersion: 2
+        x: 6067
+        y: 1503
+        width: 266
+        height: 659
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bfe982d33e39440800000000000000
+      internalID: 4941543067969583944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 31882e39290038049ab95f389a77455d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logo_laranja_linhas_brancas_0: -821254195195626606
+      logo_laranja_linhas_brancas_1: 6469578093136660495
+      logo_laranja_linhas_brancas_10: 7683801131446646410
+      logo_laranja_linhas_brancas_11: -6915065643563884927
+      logo_laranja_linhas_brancas_12: 7998405560983125250
+      logo_laranja_linhas_brancas_13: -6738778920966142070
+      logo_laranja_linhas_brancas_14: -97196999733178723
+      logo_laranja_linhas_brancas_15: -941663960390460673
+      logo_laranja_linhas_brancas_16: 4941543067969583944
+      logo_laranja_linhas_brancas_17: 7743084407233519003
+      logo_laranja_linhas_brancas_18: -5892974279544940887
+      logo_laranja_linhas_brancas_2: 2423059720175982278
+      logo_laranja_linhas_brancas_3: 568122638222992333
+      logo_laranja_linhas_brancas_4: -4421107388454859814
+      logo_laranja_linhas_brancas_5: -6357098687683405808
+      logo_laranja_linhas_brancas_6: 4949178146904720649
+      logo_laranja_linhas_brancas_7: -3436782535282681413
+      logo_laranja_linhas_brancas_8: 5636343486394752142
+      logo_laranja_linhas_brancas_9: -2589093223372418636
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
