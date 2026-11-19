@@ -8,6 +8,7 @@ public class LevelMenu : MonoBehaviour
 {
     public Button[] buttons;
     public GameObject levelButtons;
+    [SerializeField] private LevelLoader levelLoader;
 
     private void Comeco()
     {
@@ -22,10 +23,10 @@ public class LevelMenu : MonoBehaviour
             buttons[i].interactable = true;
         }
     }
-    public void OpenLevel(int levelId)
+
+    public void Load(int levelid)
     {
-        string levelName = "Fase" + levelId;
-        SceneManager.LoadScene(levelName);
+        levelLoader.OpenLevel(levelid);
     }
 
     void ButtonsToArray()
