@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 83aedc4edb21d224595fe5269dcd430c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -739652396538546385
+    second: Logo_Animado2_0
+  - first:
+      213: 6667574011404021008
+    second: Logo_Animado2_1
+  - first:
+      213: -2660355444696087145
+    second: Logo_Animado2_2
+  - first:
+      213: 4797506181561887668
+    second: Logo_Animado2_3
+  - first:
+      213: 398982483294826782
+    second: Logo_Animado2_4
+  - first:
+      213: -763009664658534183
+    second: Logo_Animado2_5
+  - first:
+      213: 6758151760451573784
+    second: Logo_Animado2_6
+  - first:
+      213: 4581492141916754642
+    second: Logo_Animado2_7
+  - first:
+      213: -4889343183812877625
+    second: Logo_Animado2_8
+  - first:
+      213: -731347699489088795
+    second: Logo_Animado2_9
+  - first:
+      213: 5574468191049469182
+    second: Logo_Animado2_10
+  - first:
+      213: 6879670068528645104
+    second: Logo_Animado2_11
+  - first:
+      213: -6478904307048045925
+    second: Logo_Animado2_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_Animado2_0
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 665
+        width: 1474
+        height: 935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27bd0f601a3cb5f0800000000000000
+      internalID: -739652396538546385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87a579ce031064142bd269b6e07e19eb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_Animado2_0: -739652396538546385
+      Logo_Animado2_1: 6667574011404021008
+      Logo_Animado2_10: 5574468191049469182
+      Logo_Animado2_11: 6879670068528645104
+      Logo_Animado2_12: -6478904307048045925
+      Logo_Animado2_2: -2660355444696087145
+      Logo_Animado2_3: 4797506181561887668
+      Logo_Animado2_4: 398982483294826782
+      Logo_Animado2_5: -763009664658534183
+      Logo_Animado2_6: 6758151760451573784
+      Logo_Animado2_7: 4581492141916754642
+      Logo_Animado2_8: -4889343183812877625
+      Logo_Animado2_9: -731347699489088795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
