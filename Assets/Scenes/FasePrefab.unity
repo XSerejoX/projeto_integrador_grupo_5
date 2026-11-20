@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &41760195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2957,7 +2957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &201584975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3365,7 +3365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &272916416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3485,7 +3485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &285486893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3828,7 +3828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &308495974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4430,7 +4430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &354182719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4629,7 +4629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &379276173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4957,7 +4957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &430766532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5150,7 +5150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &431692895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5270,7 +5270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &440797723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5404,7 +5404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &445371379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5555,7 +5555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &463628005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5677,7 +5677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &487437434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5884,7 +5884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &498575913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6107,7 +6107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &511365747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6314,7 +6314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &566408992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6436,7 +6436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &657310604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6629,7 +6629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &664630569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6752,7 +6752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &665719950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6957,7 +6957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &678808257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7091,7 +7091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &728721351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7354,7 +7354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &754196269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7477,7 +7477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &757350629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7682,7 +7682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &797705958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7816,7 +7816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &800898964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7938,7 +7938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &923841141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8131,7 +8131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &947498525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8265,7 +8265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &949368921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8502,7 +8502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &978166813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8806,7 +8806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1000663465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8999,7 +8999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1006489242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9119,7 +9119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1027410399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9239,7 +9239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1095770091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9476,7 +9476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RawPizzaCounterUI
   text: {fileID: 1131664773}
-  inventory: {fileID: 0}
+  inventory: {fileID: 1747448946}
 --- !u!114 &1131664773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9799,7 +9799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1172098579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9921,7 +9921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1177071321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10175,7 +10175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1265194427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10298,7 +10298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1302021487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10517,7 +10517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1302749782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10651,7 +10651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1308968176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10961,7 +10961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BakedPizzaCounterUI
   text: {fileID: 1353840803}
-  inventory: {fileID: 0}
+  inventory: {fileID: 1747448946}
 --- !u!114 &1353840803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11108,7 +11108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1359946589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11228,7 +11228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1396233849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11353,7 +11353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DashCounterUI
   text: {fileID: 1426644040}
-  player: {fileID: 0}
+  player: {fileID: 1747448945}
 --- !u!114 &1426644040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11514,7 +11514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1429388465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11648,7 +11648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1437018115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12097,7 +12097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1523119880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12254,7 +12254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1548654732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12376,7 +12376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1616230428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12748,7 +12748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1646766006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12870,7 +12870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1665978938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13077,7 +13077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1709116255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13197,7 +13197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1723285897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13778,7 +13778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1758183515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14088,7 +14088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1770549745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14211,7 +14211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1771781898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14416,7 +14416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1777490066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14536,7 +14536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1845942162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14834,7 +14834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1864610626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15041,7 +15041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1865170486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15175,7 +15175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1892142339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15400,7 +15400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1894118060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15597,7 +15597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7efe4a53b2858ba4f9adeee9c11aed9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurnCounter
-  turnManager: {fileID: 0}
+  turnManager: {fileID: 1747448947}
   turnText: {fileID: 1896540169}
   format: '{0}'
 --- !u!114 &1896540169
@@ -15748,7 +15748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1921350344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15955,7 +15955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1924922340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16181,9 +16181,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.026639342
     width: 1
-    height: 1
+    height: 0.9474897
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -16250,7 +16250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1940496451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16372,7 +16372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1950281379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16568,7 +16568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &1963959476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16924,7 +16924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &2007823300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17046,7 +17046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &2016587830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17253,7 +17253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &2050808835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17387,7 +17387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &2075391405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17521,7 +17521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &2085001373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17641,7 +17641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e6433aaad784498c4be99a56092d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
-  grid: {fileID: 0}
+  grid: {fileID: 50069340}
 --- !u!114 &2133921717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17941,6 +17941,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5781247102047548537, guid: 4a46bdaee3fa0154590349bd36b48b0b, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042678225634648450, guid: 4a46bdaee3fa0154590349bd36b48b0b, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6932947210473502316, guid: 4a46bdaee3fa0154590349bd36b48b0b, type: 3}

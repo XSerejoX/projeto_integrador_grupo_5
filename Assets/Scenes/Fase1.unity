@@ -3077,7 +3077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7efe4a53b2858ba4f9adeee9c11aed9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurnCounter
-  turnManager: {fileID: 0}
+  turnManager: {fileID: 874644770}
   turnText: {fileID: 184470356}
   format: '{0}'
 --- !u!114 &184470356
@@ -3513,7 +3513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DashCounterUI
   text: {fileID: 300532237}
-  player: {fileID: 0}
+  player: {fileID: 874644766}
 --- !u!114 &300532237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4042,7 +4042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BakedPizzaCounterUI
   text: {fileID: 380819662}
-  inventory: {fileID: 0}
+  inventory: {fileID: 874644769}
 --- !u!114 &380819662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4759,7 +4759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RawPizzaCounterUI
   text: {fileID: 494563025}
-  inventory: {fileID: 0}
+  inventory: {fileID: 874644769}
 --- !u!114 &494563025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8653,10 +8653,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.22708334
-    y: 0
-    width: 0.30462965
-    height: 0.30462962
+    x: 0
+    y: 0.026639342
+    width: 1
+    height: 0.9474897
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
