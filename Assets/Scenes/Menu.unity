@@ -2928,7 +2928,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
@@ -5032,6 +5032,8 @@ MonoBehaviour:
   - {fileID: 691121805}
   - {fileID: 1981199111}
   levelButtons: {fileID: 1888217840}
+  mainMenu: {fileID: 682879611}
+  levelPanel: {fileID: 2028651891}
   levelLoader: {fileID: 130334253}
 --- !u!1001 &2036095135
 PrefabInstance:
