@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [Header("Progressão de fases")]
     [Tooltip("Cena carregada após vencer a última fase do Build Settings (0 = primeira cena, ex.: menu)")]
     [SerializeField] private int sceneAfterLastLevel = 0;
+    [SerializeField] private ShowManager showManager;
 
     private bool endSequenceStarted;
 
@@ -30,6 +31,9 @@ public class GameManager : MonoBehaviour
     {
         var collectibles = FindObjectsByType<Collectible>(FindObjectsInactive.Exclude);
         DeliveryManager.Instance.SetPizzaCollectionGoal(collectibles);
+
+        if (showManager == null)
+            showManager = FindAnyObjectByType<ShowManager>();
     }
 
     public void TriggerGameOver()
@@ -55,9 +59,33 @@ public class GameManager : MonoBehaviour
 
         // derrota: refaz a fase. vitória: vai para a próxima.
         if (result == GameEndState.Victory)
-            LoadNextLevel();
+        {
+            UnlockNextLevel();
+            showManager.ShowInVictory();
+        }
         else
             Restart();
+    }
+
+    private void UnlockNextLevel()
+    {
+        int menuBuildIndex = SceneUtility.GetBuildIndexByScenePath("Assets/Scenes/Menu.unity");
+        int currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (menuBuildIndex < 0 || currentBuildIndex <= menuBuildIndex)
+        {
+            Debug.LogError("Could not determine the level progression from the active scene.", this);
+            return;
+        }
+
+        // The level buttons follow Menu in build order; UnlockedLevel is the number of unlocked buttons.
+        int unlockedLevel = currentBuildIndex - menuBuildIndex + 1;
+        int highestUnlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        if (unlockedLevel <= highestUnlockedLevel)
+            return;
+
+        PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
+        PlayerPrefs.Save();
     }
 
     public void Restart()
