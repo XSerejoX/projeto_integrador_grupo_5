@@ -6,10 +6,12 @@ public class ShowAndHide : MonoBehaviour
     public void showObject()
     {
         gameObject.SetActive(true);
+        Debug.LogError("erro1", this);
     }
 
     public void hideObject()
     {
         gameObject.SetActive(false);
+        Debug.LogError("erro2", this);
     }
 }

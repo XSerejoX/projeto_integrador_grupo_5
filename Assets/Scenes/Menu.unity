@@ -451,24 +451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b03a45d9376d9a34a93239f08416b90e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
---- !u!1 &179747676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6142119060971748986, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
-  m_PrefabInstance: {fileID: 2036095135}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &179747679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179747676}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07dc922f4e7f2254980c74e11205d731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StarManager
-  starReader: {fileID: 869038774}
 --- !u!1 &351160898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2226,11 +2208,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789139846}
   m_CullTransparentMesh: 1
---- !u!1 &869038774 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6033878443631041686, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
-  m_PrefabInstance: {fileID: 2036095135}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &918428719
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,7 +5059,7 @@ PrefabInstance:
     - target: {fileID: 1473960147674896842, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
       propertyPath: starReader
       value: 
-      objectReference: {fileID: 869038774}
+      objectReference: {fileID: 0}
     - target: {fileID: 1796193193458946156, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
       propertyPath: m_UsedByEffector
       value: 0
@@ -5193,7 +5170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6033878443631041686, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6273327289789242652, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
       propertyPath: m_IsActive
@@ -5204,12 +5181,10 @@ PrefabInstance:
       value: Stars1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6142119060971748986, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6142119060971748986, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 179747679}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99eb1b2767648bf49b3093b768d74120, type: 3}
 --- !u!4 &2036095136 stripped
 Transform:
