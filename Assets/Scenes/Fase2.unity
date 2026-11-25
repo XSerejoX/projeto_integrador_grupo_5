@@ -3572,11 +3572,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65c63c66d16e03b4798063a4dd690223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowManager
-  EndLevelPanel: {fileID: 1938495059}
+  VictoryLevelPanel: {fileID: 0}
+  LostlevelPanel: {fileID: 0}
   returnToLevelSelectButton: {fileID: 1506693647}
+  returnToLevelSelectButton2: {fileID: 0}
+  nextLevelButton: {fileID: 0}
+  restartButton: {fileID: 0}
+  restartButton2: {fileID: 0}
   levelSelectSceneName: Menu
   uiScoreText: {fileID: 519333129}
   turnCounter: {fileID: 1027903454}
+  sceneAfterLastLevel: 0
   turns: 0
 --- !u!4 &223166141
 Transform:
@@ -5060,15 +5066,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.38321167
+    x: 0.00052083336
     y: 0
-    width: 0.79372805
-    height: 0.7505112
+    width: 0.9984375
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.625
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5125,8 +5131,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
   m_ComponentVersion: 1
   m_AssetsPPU: 16
-  m_RefResolutionX: 320
-  m_RefResolutionY: 180
+  m_RefResolutionX: 426
+  m_RefResolutionY: 240
   m_CropFrame: 4
   m_GridSnapping: 1
   m_FilterMode: 1

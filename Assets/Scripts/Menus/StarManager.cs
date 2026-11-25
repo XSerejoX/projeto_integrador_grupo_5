@@ -8,10 +8,12 @@ public class StarManager : MonoBehaviour
     private void OnMouseEnter()
     {
         starReader.GetComponent<ShowAndHide>().showObject();
+        Debug.LogError("erro3", this);
     }
 
     private void OnMouseExit()
     {
         starReader.GetComponent<ShowAndHide>().hideObject();
+        Debug.LogError("erro4", this);
     }
 }

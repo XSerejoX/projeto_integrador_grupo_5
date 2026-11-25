@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
             showManager.ShowInVictory();
         }
         else
-            Restart();
+            showManager.ShowInLosing();
     }
 
     private void UnlockNextLevel()
