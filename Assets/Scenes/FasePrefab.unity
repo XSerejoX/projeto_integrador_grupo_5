@@ -579,6 +579,7 @@ GameObject:
   - component: {fileID: 82072295}
   - component: {fileID: 82072294}
   - component: {fileID: 82072293}
+  - component: {fileID: 82072296}
   m_Layer: 5
   m_Name: ArrowRound
   m_TagString: Untagged
@@ -665,6 +666,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82072291}
   m_CullTransparentMesh: 1
+--- !u!114 &82072296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82072291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564601a6484babb42a24ad7b9aec8bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISeta
+  rectTransform: {fileID: 82072292}
+  posicaoSeta: {x: 0, y: 0}
+  resetPosicaoSeta: {x: 0, y: 0}
+  offset: {x: 0, y: -40}
 --- !u!1 &90789820
 GameObject:
   m_ObjectHideFlags: 0
@@ -19590,10 +19607,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00052083336
-    y: 0
-    width: 0.9984375
-    height: 1
+    x: 0
+    y: 0.020491801
+    width: 1
+    height: 0.9593627
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -22082,6 +22099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArrowManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5571777566628806111, guid: 14e0c22ce876a594f8d5c2a70bb1a98e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7370146651056408189, guid: 14e0c22ce876a594f8d5c2a70bb1a98e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -22214,6 +22235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyTurnManager
   player: {fileID: 1747448945}
   turnManager: {fileID: 1747448947}
+  uiTeste: {fileID: 0}
 --- !u!95 &9000000000000000004
 Animator:
   serializedVersion: 7
