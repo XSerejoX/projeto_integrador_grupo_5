@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 // Resultado do planejamento de um inimigo. Calculado sem mexer no grid.
+
 public struct EnemyPlan
 {
     public List<Vector2Int> Path;   // células que ele vai pisar (sem a origem)
@@ -13,6 +15,7 @@ public struct EnemyPlan
 // Todo inimigo que joga no turno dos inimigos implementa isso.
 public interface IEnemyTurn
 {
+    
     int TurnOrder { get; }                                   // menor = joga primeiro
     EnemyPlan PlanTurn(GridEntity player);                   // puro: só lê o grid
     IEnumerator ExecuteTurn(GridEntity player, EnemyPlan plan); // segue o plano
@@ -23,7 +26,12 @@ public class EnemyTurnManager : MonoBehaviour
 {
     [SerializeField] private NewPlayerController player;
     [SerializeField] private TurnManager turnManager;
-
+    [SerializeField] private UISeta uiTeste;    
+    private void Awake()
+    {
+        uiTeste = FindAnyObjectByType<UISeta>();
+    }
+    
     // lista estática: os inimigos se registram no OnEnable, sem depender da ordem de Awake
     private static readonly List<IEnemyTurn> enemies = new();
 
@@ -78,6 +86,8 @@ public class EnemyTurnManager : MonoBehaviour
 
                 var mb = enemy as MonoBehaviour;
                 if (mb == null || !mb.isActiveAndEnabled) continue;
+                
+                uiTeste.MoverSeta();
 
                 // 1) planeja (o grid já reflete os inimigos anteriores)
                 EnemyPlan plan = enemy.PlanTurn(player);
@@ -90,7 +100,8 @@ public class EnemyTurnManager : MonoBehaviour
                     yield return new WaitForSeconds(PathPreview.Instance.Duration);
                     PathPreview.Instance.Hide();
                 }
-
+                
+                
                 // game over durante a prévia: não executa o turno
                 if (GameManager.Instance != null && GameManager.Instance.IsGameOver) break;
 
@@ -106,5 +117,6 @@ public class EnemyTurnManager : MonoBehaviour
 
         isRunning = false;
         turnManager.isPlayerTurn = true;
+        uiTeste.ResetSeta();
     }
 }
