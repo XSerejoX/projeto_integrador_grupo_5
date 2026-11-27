@@ -4209,6 +4209,123 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &298037491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1115925619}
+    m_Modifications:
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636826797567625429, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: turnManager
+      value: 
+      objectReference: {fileID: 197536563}
+    - target: {fileID: 6493328383861714885, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+      propertyPath: m_Name
+      value: RoundManagerReal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+--- !u!224 &298037492 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 94268100011170367, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+  m_PrefabInstance: {fileID: 298037491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &298037493 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8927137077830700178, guid: 1ae361077610ce04c962b10b98319b83, type: 3}
+  m_PrefabInstance: {fileID: 298037491}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564601a6484babb42a24ad7b9aec8bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISeta
 --- !u!1 &298476799
 GameObject:
   m_ObjectHideFlags: 0
@@ -7752,6 +7869,7 @@ RectTransform:
   - {fileID: 1280012838}
   - {fileID: 1919014450}
   - {fileID: 1916217666}
+  - {fileID: 298037492}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11579,10 +11697,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.110937506
+    x: 0.27708334
     y: 0
-    width: 0.3836589
-    height: 0.38425925
+    width: 0.26532552
+    height: 0.26574072
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -12851,6 +12969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyTurnManager
   player: {fileID: 197536559}
   turnManager: {fileID: 197536563}
+  uiTeste: {fileID: 298037493}
 --- !u!95 &9000000000000000004
 Animator:
   serializedVersion: 7
