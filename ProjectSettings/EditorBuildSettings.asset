@@ -15,13 +15,13 @@ EditorBuildSettings:
     path: Assets/sceneCopy.unity
     guid: 145e06cf2e40c0948b3b7f59694b99e5
   - enabled: 0
-    path: Assets/Scenes/Fase1a.unity
+    path: Assets/Scenes/FasesAntigas/Fase1a.unity
     guid: 6f4ab0aae58f13143a16fb80ef34313f
   - enabled: 0
-    path: Assets/Scenes/Fase2a.unity
+    path: Assets/Scenes/FasesAntigas/Fase2a.unity
     guid: 567889cee3cf0364b8ffd5ccbf0628a1
   - enabled: 0
-    path: Assets/Scenes/Fase3a.unity
+    path: Assets/Scenes/FasesAntigas/Fase3a.unity
     guid: c8b182c09f4ac26468621b381c058370
   - enabled: 1
     path: Assets/Scenes/Iniciator.unity
@@ -31,12 +31,30 @@ EditorBuildSettings:
     guid: 2d62f18f022031143b80a6c745d52e4e
   - enabled: 1
     path: Assets/Scenes/Fase1.unity
-    guid: 7b4f84d23ff2e48428e12becb57c04d7
+    guid: a70403eb1ed49184fb3465fdc06a6ebf
   - enabled: 1
     path: Assets/Scenes/Fase2.unity
-    guid: 9da5c00f9dc4c4147ba3a6118dcb7733
+    guid: 57c0ef92b56ff0d43a5f11d7ba350b27
   - enabled: 1
     path: Assets/Scenes/Fase3.unity
+    guid: ad7db5fda27677a46821ed3b45f0a6c6
+  - enabled: 1
+    path: Assets/Scenes/Fase4.unity
+    guid: 7203e5426466fad4b83b0d2c67d3a3f7
+  - enabled: 1
+    path: Assets/Scenes/Fase5.unity
+    guid: e8385538a693ee8488e6f3c1f2105f19
+  - enabled: 1
+    path: Assets/Scenes/Fase6.unity
+    guid: 027fd6afdcc6ae140b1d37d51d08f35d
+  - enabled: 1
+    path: Assets/Scenes/Fase7.unity
+    guid: 7b4f84d23ff2e48428e12becb57c04d7
+  - enabled: 1
+    path: Assets/Scenes/Fase8.unity
+    guid: 9da5c00f9dc4c4147ba3a6118dcb7733
+  - enabled: 1
+    path: Assets/Scenes/Fase9.unity
     guid: 57b74759b8ade724486fb69da894dbd0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2165623f19017b94592a69eb2842a60e, type: 3}
