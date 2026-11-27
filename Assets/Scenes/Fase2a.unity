@@ -5066,10 +5066,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.022540983
-    width: 1
-    height: 0.95359033
+    x: 0.27708334
+    y: 0
+    width: 0.26532552
+    height: 0.26574072
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -11301,6 +11301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyTurnManager
   player: {fileID: 321448740}
   turnManager: {fileID: 321448744}
+  uiTeste: {fileID: 0}
 --- !u!95 &9000000000000000004
 Animator:
   serializedVersion: 7
