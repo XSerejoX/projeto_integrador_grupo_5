@@ -38,7 +38,7 @@ public class LevelMenu : MonoBehaviour
         Debug.LogError($"Could not find a LevelMenu in scene '{scene.name}'.");
     }
 
-    private void Start()
+    private void Awake()
     {
         ButtonsToArray();
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
